@@ -55,7 +55,7 @@
 			<button
 				type="submit"
 				class="bg-black border border-black font-montserrat font-medium text-white text-base px-8 py-3 rounded"
-				>Submit</button
+				>Contact Now</button
 			>
 		</form>
 	</div>
