@@ -30,14 +30,14 @@
 			What I Can Help You With
 		</h2>
 		<div class="grid grid-cols-3 gap-12">
-			<div class="bg-bgDarkLight p-12 rounded-xl">
+			<div class="bg-gray-200 p-12 rounded-xl">
 				<div class="flex justify-center items-center mb-5">
 					<img src="/home.svg" alt="Estate Planning" class="h-12 w-auto" />
 				</div>
-				<h3 class="font-oregon font-medium text-white text-3xl text-center mb-3">
+				<h3 class="font-oregon font-medium text-black text-3xl text-center mb-3">
 					Estate Planning
 				</h3>
-				<p class="font-montserrat font-normal text-white text-sm text-center mb-5">
+				<p class="font-montserrat font-normal text-black text-sm text-center mb-5">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequatur quia
 					aspernatur eaque optio officiis.
 				</p>
@@ -49,14 +49,14 @@
 					>
 				</div>
 			</div>
-			<div class="bg-bgDarkLight p-12 rounded-xl">
+			<div class="bg-gray-200 p-12 rounded-xl">
 				<div class="flex justify-center items-center mb-5">
 					<img src="/business.svg" alt="Estate Planning" class="h-12 w-auto" />
 				</div>
-				<h3 class="font-oregon font-medium text-white text-3xl text-center mb-3">
+				<h3 class="font-oregon font-medium text-black text-3xl text-center mb-3">
 					Business Formation
 				</h3>
-				<p class="font-montserrat font-normal text-white text-sm text-center mb-4">
+				<p class="font-montserrat font-normal text-black text-sm text-center mb-4">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequatur quia
 					aspernatur eaque optio officiis.
 				</p>
@@ -68,14 +68,14 @@
 					>
 				</div>
 			</div>
-			<div class="bg-bgDarkLight p-12 rounded-xl">
+			<div class="bg-gray-200 p-12 rounded-xl">
 				<div class="flex justify-center items-center mb-5">
 					<img src="/divorce.svg" alt="Estate Planning" class="h-12 w-auto" />
 				</div>
-				<h3 class="font-oregon font-medium text-white text-3xl text-center mb-3">
+				<h3 class="font-oregon font-medium text-black text-3xl text-center mb-3">
 					Marriage & Divorce
 				</h3>
-				<p class="font-montserrat font-normal text-white text-sm text-center mb-4">
+				<p class="font-montserrat font-normal text-black text-sm text-center mb-4">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequatur quia
 					aspernatur eaque optio officiis.
 				</p>

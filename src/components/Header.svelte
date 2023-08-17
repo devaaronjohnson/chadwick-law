@@ -26,8 +26,12 @@
 							Personal <i class="fa-light fa-angle-down" /></a
 						>
 					</li>
-					<li>About</li>
-					<li>Contact</li>
+					<li>
+						<a href="/about"> About </a>
+					</li>
+					<li>
+						<a href="/contact"> Contact </a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -39,19 +43,23 @@
 		in:fade={{ duration: 300 }}
 		use:clickOutside
 		on:click_outside={() => (showPersonalMenu = false)}
-		class="w-full absolute top-16 left-0 w-full bg-gray-200 pt-10 pb-10"
+		class="w-full absolute top-16 left-0 w-full bg-white pt-10 pb-10 shadow-xl"
 	>
 		<div class="w-full max-w-screen-xl mx-auto">
 			<div class="grid grid-cols-4 gap-10">
 				<div>
-					<p class="font-montserrat font-bold text-base">Wills and trusts</p>
+					<p class="font-montserrat font-bold text-base mb-3">
+						<a on:click={() => (showPersonalMenu = false)} href="/personal/estate-planning"
+							>Estate Planning</a
+						>
+					</p>
 					<ul>
 						<li>
 							<a
 								on:click={() => (showPersonalMenu = false)}
 								href="/personal/estate-planning/last-will"
 							>
-								Last will and testament
+								Last will
 							</a>
 						</li>
 						<li>
@@ -81,24 +89,23 @@
 					</ul>
 				</div>
 				<div>
-					<p class="font-montserrat font-bold text-base">Family</p>
+					<p class="font-montserrat font-bold text-base mb-3">
+						<a on:click={() => (showPersonalMenu = false)} href="/personal/family">Family</a>
+					</p>
 					<ul>
 						<li>
-							<a
-								on:click={() => (showPersonalMenu = false)}
-								href="/personal/estate-planning/last-will"
-							>
+							<a on:click={() => (showPersonalMenu = false)} href="/personal/family/divorce">
 								Divorce
 							</a>
 						</li>
-						<li>
+						<!-- <li>
 							<a
 								on:click={() => (showPersonalMenu = false)}
 								href="/personal/estate-planning/living-trust"
 							>
 								Name Change
 							</a>
-						</li>
+						</li> -->
 					</ul>
 				</div>
 				<div>
