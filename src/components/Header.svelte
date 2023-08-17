@@ -11,7 +11,7 @@
 		<div class="flex flex-row items-center justify-between">
 			<div class="flex-1">
 				<a href="/">
-					<p>Connie Chadwick Law`</p>
+					<p>Connie Chadwick Law</p>
 				</a>
 			</div>
 			<div id="nav" class="flex-1">
