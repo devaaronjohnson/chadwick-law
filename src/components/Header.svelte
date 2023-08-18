@@ -139,43 +139,30 @@
 		in:fade={{ duration: 300 }}
 		use:clickOutside
 		on:click_outside={() => (showBusinessMenu = false)}
-		class="w-full absolute top-16 left-0 w-full bg-gray-400 pt-10 pb-10"
+		class="w-full absolute top-16 left-0 w-full bg-white pt-10 pb-10 shadow-xl"
 	>
 		<div class="w-full max-w-screen-xl mx-auto">
 			<div class="grid grid-cols-4 gap-10">
 				<div>
-					<p class="font-montserrat font-bold text-base">Wills and trusts</p>
+					<p class="font-montserrat font-bold text-base mb-3">
+						<a on:click={() => (showBusinessMenu = false)} href="/business-formation"
+							>Business Formation</a
+						>
+					</p>
 					<ul>
 						<li>
-							<a
-								on:click={() => (showPersonalMenu = false)}
-								href="/personal/estate-planning/last-will"
-							>
-								Last will and testament
+							<a on:click={() => (showPersonalMenu = false)} href="/business-formation">
+								Limited liability company (LLC)
 							</a>
 						</li>
 						<li>
-							<a
-								on:click={() => (showPersonalMenu = false)}
-								href="/personal/estate-planning/living-trust"
-							>
-								Living trust
+							<a on:click={() => (showPersonalMenu = false)} href="/business-formation">
+								Corporation (C corp, S corp)
 							</a>
 						</li>
 						<li>
-							<a
-								on:click={() => (showPersonalMenu = false)}
-								href="/personal/estate-planning/power-of-attorney"
-							>
-								Power of attorney
-							</a>
-						</li>
-						<li>
-							<a
-								on:click={() => (showPersonalMenu = false)}
-								href="/personal/estate-planning/living-will"
-							>
-								Living will
+							<a on:click={() => (showPersonalMenu = false)} href="/business-formation">
+								Doing business as (DBA)
 							</a>
 						</li>
 					</ul>

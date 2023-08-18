@@ -10,12 +10,17 @@
 
 <section class="pt-40 pb-40">
 	<div class="w-full max-w-screen-xl mx-auto">
-		<h1 class="font-oregon font-medium text-5xl text-black w-1/2">
-			Help protect your family's future with an estate plan
-		</h1>
-		<!-- <p class="font-montserrat font-normal text-xl text-black">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit.
-		</p> -->
+		<h1 class="font-oregon font-medium text-5xl text-black w-1/2">Get down to business</h1>
+		<p class="font-montserrat font-normal text-xl text-black mb-4">
+			There’s more than one way to officially set up a business. We’re here to help make sense of
+			these different structures so you can start on the right path—or scale to the next level.
+			We’ll check if your company name is available, and file all the required forms. Together,
+			let’s make your business official.
+		</p>
+		<p class="font-montserrat font-normal text-xl text-black">
+			LLC formation starts at <span class="font-bold">$0 + state filing fees</span>. Entity startup
+			costs are often tax deductible.
+		</p>
 	</div>
 </section>
 
