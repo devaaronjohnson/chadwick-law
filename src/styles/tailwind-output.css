@@ -558,6 +558,12 @@ video {
 .mb-10 {
   margin-bottom: 2.5rem;
 }
+.mt-6 {
+  margin-top: 1.5rem;
+}
+.mt-10 {
+  margin-top: 2.5rem;
+}
 .inline-block {
   display: inline-block;
 }
@@ -590,6 +596,9 @@ video {
 }
 .list-decimal {
   list-style-type: decimal;
+}
+.list-disc {
+  list-style-type: disc;
 }
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -758,6 +767,9 @@ video {
 .pt-5 {
   padding-top: 1.25rem;
 }
+.pl-6 {
+  padding-left: 1.5rem;
+}
 .text-left {
   text-align: left;
 }
@@ -810,6 +822,9 @@ video {
 }
 .font-normal {
   font-weight: 400;
+}
+.italic {
+  font-style: italic;
 }
 .text-black {
   --tw-text-opacity: 1;
