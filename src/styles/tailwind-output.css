@@ -645,6 +645,9 @@ video {
 .gap-4 {
   gap: 1rem;
 }
+.gap-20 {
+  gap: 5rem;
+}
 .rounded {
   border-radius: 0.25rem;
 }
@@ -878,5 +881,9 @@ video {
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
