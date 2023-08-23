@@ -151,17 +151,17 @@
 					</p>
 					<ul>
 						<li>
-							<a on:click={() => (showPersonalMenu = false)} href="/business-formation">
+							<a on:click={() => (showBusinessMenu = false)} href="/business-formation/llc">
 								Limited liability company (LLC)
 							</a>
 						</li>
 						<li>
-							<a on:click={() => (showPersonalMenu = false)} href="/business-formation">
+							<a on:click={() => (showBusinessMenu = false)} href="/business-formation/inc">
 								Corporation (C corp, S corp)
 							</a>
 						</li>
 						<li>
-							<a on:click={() => (showPersonalMenu = false)} href="/business-formation">
+							<a on:click={() => (showBusinessMenu = false)} href="/business-formation/dba">
 								Doing business as (DBA)
 							</a>
 						</li>
@@ -172,7 +172,7 @@
 					<ul>
 						<li>
 							<a
-								on:click={() => (showPersonalMenu = false)}
+								on:click={() => (showBusinessMenu = false)}
 								href="/personal/estate-planning/last-will"
 							>
 								Divorce
@@ -180,7 +180,7 @@
 						</li>
 						<li>
 							<a
-								on:click={() => (showPersonalMenu = false)}
+								on:click={() => (showBusinessMenu = false)}
 								href="/personal/estate-planning/living-trust"
 							>
 								Name Change
@@ -193,7 +193,7 @@
 					<ul>
 						<li>
 							<a
-								on:click={() => (showPersonalMenu = false)}
+								on:click={() => (showBusinessMenu = false)}
 								href="/personal/estate-planning/last-will"
 							>
 								Residential Lease
@@ -201,7 +201,7 @@
 						</li>
 						<li>
 							<a
-								on:click={() => (showPersonalMenu = false)}
+								on:click={() => (showBusinessMenu = false)}
 								href="/personal/estate-planning/living-trust"
 							>
 								Property deed transfer

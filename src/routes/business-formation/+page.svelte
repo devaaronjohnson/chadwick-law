@@ -50,7 +50,7 @@
 					an LLC. Get yours started for free—just pay state filing fees.
 				</p>
 				<p class="font-montserrat font-bold text-black text-lg mb-4 text-left">
-					From $0 + filing fees
+					From $299 + filing fees
 				</p>
 				<div class="flex justify-start items-center">
 					<a
