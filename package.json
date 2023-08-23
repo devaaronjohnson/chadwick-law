@@ -12,6 +12,7 @@
 		"buld": "npm run tailwind:build && npm run build:only"
 	},
 	"devDependencies": {
+		"@splidejs/svelte-splide": "^0.2.9",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.20.4",
 		"autoprefixer": "^10.4.14",
