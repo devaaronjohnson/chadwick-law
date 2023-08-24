@@ -109,22 +109,16 @@
 					</ul>
 				</div>
 				<div>
-					<p class="font-montserrat font-bold text-base">Real Estate</p>
+					<p class="font-montserrat font-bold text-base mb-3">
+						<a on:click={() => (showPersonalMenu = false)} href="/personal/family">Real Estate</a>
+					</p>
 					<ul>
 						<li>
 							<a
 								on:click={() => (showPersonalMenu = false)}
 								href="/personal/estate-planning/last-will"
 							>
-								Residential Lease
-							</a>
-						</li>
-						<li>
-							<a
-								on:click={() => (showPersonalMenu = false)}
-								href="/personal/estate-planning/living-trust"
-							>
-								Property deed transfer
+								Coming soon!
 							</a>
 						</li>
 					</ul>
@@ -168,7 +162,9 @@
 					</ul>
 				</div>
 				<div>
-					<p class="font-montserrat font-bold text-base">Family</p>
+					<p class="font-montserrat font-bold text-base mb-3">
+						<a on:click={() => (showBusinessMenu = false)} href="/personal/family">Family</a>
+					</p>
 					<ul>
 						<li>
 							<a
@@ -189,22 +185,16 @@
 					</ul>
 				</div>
 				<div>
-					<p class="font-montserrat font-bold text-base">Real Estate</p>
+					<p class="font-montserrat font-bold text-base mb-3">
+						<a on:click={() => (showBusinessMenu = false)} href="/personal/family">Real Estate</a>
+					</p>
 					<ul>
 						<li>
 							<a
 								on:click={() => (showBusinessMenu = false)}
 								href="/personal/estate-planning/last-will"
 							>
-								Residential Lease
-							</a>
-						</li>
-						<li>
-							<a
-								on:click={() => (showBusinessMenu = false)}
-								href="/personal/estate-planning/living-trust"
-							>
-								Property deed transfer
+								Coming soon!
 							</a>
 						</li>
 					</ul>
