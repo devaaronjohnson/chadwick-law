@@ -48,7 +48,7 @@
 				<div class="flex justify-center items-center">
 					<a
 						href="/personal/estate-planning"
-						class="font-montserrat font-medium text-sm bg-brandGreen border border-brandGreen rounded text-black px-6 py-2"
+						class="font-montserrat font-medium text-sm bg-gray-500 border border-gray-500 rounded text-white px-6 py-2"
 						>Get Started</a
 					>
 				</div>
@@ -67,7 +67,7 @@
 				<div class="flex justify-center items-center">
 					<a
 						href="."
-						class="font-montserrat font-medium text-sm bg-brandGreen border border-brandGreen rounded text-black px-6 py-2"
+						class="font-montserrat font-medium text-sm bg-gray-500 border border-gray-500 rounded text-white px-6 py-2"
 						>Get Started</a
 					>
 				</div>
@@ -86,7 +86,7 @@
 				<div class="flex justify-center items-center">
 					<a
 						href="/personal/divorce"
-						class="font-montserrat font-medium text-sm bg-brandGreen border border-brandGreen rounded text-black px-6 py-2"
+						class="font-montserrat font-medium text-sm bg-gray-500 border border-gray-500 rounded text-white px-6 py-2"
 						>Get Started</a
 					>
 				</div>
