@@ -12,11 +12,14 @@
 		"buld": "npm run tailwind:build && npm run build:only"
 	},
 	"devDependencies": {
+		"@splidejs/svelte-splide": "^0.2.9",
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-cloudflare": "^2.3.3",
 		"@sveltejs/kit": "^1.20.4",
 		"autoprefixer": "^10.4.14",
 		"concurrently": "^8.2.0",
 		"cross-env": "^7.0.3",
+		"date-fns": "^2.30.0",
 		"gsap": "^3.12.2",
 		"postcss": "^8.4.24",
 		"postcss-cli": "^10.1.0",
