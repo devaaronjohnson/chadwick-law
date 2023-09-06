@@ -9,7 +9,7 @@
 		"tailwind:watch": "cross-env TAILWIND_MODE=watch cross-env NODE_ENV=development postcss src/styles/tailwind.css -o src/styles/tailwind-output.css -w",
 		"tailwind:build": "cross-env TAILWIND_MODE=build cross-env NODE_ENV=production postcss src/styles/tailwind.css -o src/styles/tailwind-output.css",
 		"dev": "concurrently \"npm run dev:only\" \"npm run tailwind:watch\"",
-		"buld": "npm run tailwind:build && npm run build:only"
+		"build": "npm run tailwind:build && npm run build:only"
 	},
 	"devDependencies": {
 		"@splidejs/svelte-splide": "^0.2.9",
