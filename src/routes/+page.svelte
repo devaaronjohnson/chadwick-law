@@ -91,6 +91,44 @@
 					>
 				</div>
 			</div>
+			<div class="bg-gray-200 p-12 rounded-xl">
+				<div class="flex justify-center items-center mb-5">
+					<img src="/divorce.svg" alt="Estate Planning" class="h-12 w-auto" />
+				</div>
+				<h3 class="font-oregon font-medium text-black text-3xl text-center mb-3">
+					Marriage & Divorce
+				</h3>
+				<p class="font-montserrat font-normal text-black text-sm text-center mb-4">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequatur quia
+					aspernatur eaque optio officiis.
+				</p>
+				<div class="flex justify-center items-center">
+					<a
+						href="/personal/divorce"
+						class="font-montserrat font-medium text-sm bg-gray-500 border border-gray-500 rounded text-white px-6 py-2"
+						>Get Started</a
+					>
+				</div>
+			</div>
+			<div class="bg-gray-200 p-12 rounded-xl">
+				<div class="flex justify-center items-center mb-5">
+					<img src="/divorce.svg" alt="Estate Planning" class="h-12 w-auto" />
+				</div>
+				<h3 class="font-oregon font-medium text-black text-3xl text-center mb-3">
+					Marriage & Divorce
+				</h3>
+				<p class="font-montserrat font-normal text-black text-sm text-center mb-4">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequatur quia
+					aspernatur eaque optio officiis.
+				</p>
+				<div class="flex justify-center items-center">
+					<a
+						href="/personal/divorce"
+						class="font-montserrat font-medium text-sm bg-gray-500 border border-gray-500 rounded text-white px-6 py-2"
+						>Get Started</a
+					>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
