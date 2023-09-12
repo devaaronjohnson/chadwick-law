@@ -32,7 +32,7 @@
 				>
 			</div>
 		</div>
-		<div class="flex-1 pl-20">
+		<div class="flex-1 pl-28">
 			<div class="translate-y-20"><Form /></div>
 		</div>
 	</div>
@@ -99,7 +99,7 @@
 			</div>
 			<div class="bg-gray-200 p-12 rounded-xl">
 				<div class="flex justify-center items-center mb-5">
-					<img src="/divorce.svg" alt="Estate Planning" class="h-12 w-auto" />
+					<i class="fa-regular fa-sign-hanging text-5xl" />
 				</div>
 				<h3 class="font-oregon font-medium text-black text-3xl text-center mb-3">Real Estate</h3>
 				<p class="font-montserrat font-normal text-black text-sm text-center mb-4">
@@ -116,7 +116,7 @@
 			</div>
 			<div class="bg-gray-200 p-12 rounded-xl">
 				<div class="flex justify-center items-center mb-5">
-					<img src="/divorce.svg" alt="Estate Planning" class="h-12 w-auto" />
+					<i class="fa-light fa-chair-office text-5xl" />
 				</div>
 				<h3 class="font-oregon font-medium text-black text-3xl text-center mb-3">
 					Human Resources & Labor Issues
@@ -135,7 +135,8 @@
 			</div>
 			<div class="bg-gray-200 p-12 rounded-xl">
 				<div class="flex justify-center items-center mb-5">
-					<img src="/divorce.svg" alt="Estate Planning" class="h-12 w-auto" />
+					<!-- <img src="/divorce.svg" alt="Estate Planning" class="h-12 w-auto" /> -->
+					<i class="fa-light fa-file-contract text-5xl" />
 				</div>
 				<h3 class="font-oregon font-medium text-black text-3xl text-center mb-3">
 					Contract Consultation

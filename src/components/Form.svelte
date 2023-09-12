@@ -6,13 +6,13 @@
 	let showServiceList = false;
 
 	// Variables
-	let name,
+	let fullName,
 		phone,
 		email,
 		message,
 		service = '';
 
-	let nameClicked,
+	let fullNameClicked,
 		phoneClicked,
 		emailClicked,
 		serviceClicked = '';
@@ -33,8 +33,8 @@
 				id="name"
 				class="border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full"
 				placeholder="Name"
-				bind:value={name}
-				on:focus={() => (nameClicked = true)}
+				bind:value={fullName}
+				on:focus={() => (fullNameClicked = true)}
 			/>
 		</div>
 		<div class="w-full mb-3 relative">
@@ -52,7 +52,7 @@
 			<input
 				id="email"
 				class="border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full"
-				placeholder="email"
+				placeholder="Email"
 				bind:value={email}
 				on:focus={() => (emailClicked = true)}
 			/>
