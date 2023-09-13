@@ -6,7 +6,7 @@
 	import '../styles/tailwind-output.css';
 
 	// Webfonts
-	import '../styles/all.css';
+	import '../styles/all.min.css';
 </script>
 
 <Header />
