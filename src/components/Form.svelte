@@ -1,6 +1,9 @@
 <script>
 	import { goto } from '$app/navigation';
 	import { fade } from 'svelte/transition';
+	import { clickOutside } from '$lib/clickOutside';
+
+	export let services = ['Last will', 'Living will', 'Power of attorney', 'Living trust'];
 
 	// Booleans
 	let showServiceList = false;
@@ -22,9 +25,8 @@
 
 <div class="relative bg-white p-10 rounded-3xl shadow-2xl">
 	<h3 class="text-center font-oregon font-medium text-3xl text-black mb-3">Get Started</h3>
-	<p class="text-center font-montserrat font-light text-base text-black mb-5">
-		Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, optio! Quaerat vitae animi
-		recusandae sint.
+	<p class="text-center font-montserrat font-light text-base text-black mb-5 px-10">
+		Fill out the form below and I will get back to you within 24 hours.
 	</p>
 	<form on:submit|preventDefault={submitForm} class="relative">
 		<div class="w-full mb-3 relative">
@@ -57,12 +59,16 @@
 				on:focus={() => (emailClicked = true)}
 			/>
 		</div>
-		<div class="w-full mb-3 relative">
+		<div
+			use:clickOutside
+			on:click_outside={() => (showServiceList = false)}
+			class="w-full mb-3 relative"
+		>
 			<label for="relative service"> Service </label>
 			<input
 				id="service"
 				class="relative border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full"
-				placeholder="Service"
+				placeholder="Select a service"
 				bind:value={service}
 				on:focus={() => {
 					serviceClicked = true;
@@ -71,15 +77,20 @@
 			/>
 			{#if showServiceList}
 				<div
-					class="w-full border border-red-300 bg-red-100 rounded p-5 absolute top-16 left-0 w-full shadow-xl z-10"
+					class="w-full border border-red-300 bg-red-100 rounded p-5 absolute top-12 left-0 w-full shadow-xl z-10"
 				>
 					<ul>
-						<li>
-							<a href=".">Link</a>
-						</li>
-						<li>
-							<a href=".">Link</a>
-						</li>
+						{#each services as s, i}
+							<li>
+								<a
+									on:click|preventDefault={() => {
+										service = s;
+										showServiceList = false;
+									}}
+									href=".">{s}</a
+								>
+							</li>
+						{/each}
 					</ul>
 				</div>
 			{/if}
