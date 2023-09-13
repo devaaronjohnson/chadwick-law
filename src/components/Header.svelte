@@ -11,7 +11,7 @@
 		<div class="flex flex-row items-center justify-between">
 			<div class="flex-1">
 				<a href="/">
-					<p>Connie Chadwick Law</p>
+					<img src="/ccl_logo2.png" alt="Connie Chadwick Law" class="h-16" />
 				</a>
 			</div>
 			<div id="nav" class="flex-1">

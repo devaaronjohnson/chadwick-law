@@ -1,4 +1,7 @@
 <script>
+	import { Form } from '$components';
+	import { animateScroll } from 'svelte-scrollto-element';
+
 	// Meta
 	let pageTitle = '';
 	let pageDescription = '';
@@ -8,23 +11,28 @@
 	<title>{pageTitle}</title>
 </svelte:head>
 
-<section class="pt-40 pb-40">
-	<div class="w-full max-w-screen-xl mx-auto">
-		<h1 class="font-oregon font-medium text-5xl text-black w-1/2">Get down to business</h1>
-		<p class="font-montserrat font-normal text-xl text-black mb-4">
-			There’s more than one way to officially set up a business. We’re here to help make sense of
-			these different structures so you can start on the right path—or scale to the next level.
-			We’ll check if your company name is available, and file all the required forms. Together,
-			let’s make your business official.
-		</p>
-		<p class="font-montserrat font-normal text-xl text-black">
-			LLC formation starts at <span class="font-bold">$0 + state filing fees</span>. Entity startup
-			costs are often tax deductible.
-		</p>
+<section class="bg-gray-300 pt-0 b-40">
+	<div class="w-full max-w-screen-xl mx-auto flex flex-row items-center">
+		<div class="w-1/2">
+			<h1 class="font-oregon font-medium text-5xl text-black mb-6">Get down to business</h1>
+			<p class="font-montserrat font-normal text-xl text-black mb-4">
+				There’s more than one way to officially set up a business. We’re here to help make sense of
+				these different structures so you can start on the right path—or scale to the next level.
+				We’ll check if your company name is available, and file all the required forms. Together,
+				let’s make your business official.
+			</p>
+			<p class="font-montserrat font-normal text-xl text-black">
+				LLC formation starts at <span class="font-bold">$0 + state filing fees</span>. Entity
+				startup costs are often tax deductible.
+			</p>
+		</div>
+		<div class="flex-1 pl-28">
+			<div class="translate-y-20"><Form /></div>
+		</div>
 	</div>
 </section>
 
-<section class="bg-gray-200 pt-28 pb-28">
+<section class="pt-28 pb-28">
 	<div class="w-full max-w-screen-xl mx-auto">
 		<h2 class="font-oregon font-medium text-4xl text-black w-1/2">
 			Choose what is right for your business.
@@ -54,7 +62,7 @@
 				</p>
 				<div class="flex justify-start items-center">
 					<a
-						href="/personal/estate-planning/last-will"
+						href="/business-services/llc"
 						class="inline-block border border-black bg-transparent rounded-full px-8 py-2 font-montserrat font-medium text-sm"
 						>Start my LLC</a
 					>
@@ -110,7 +118,7 @@
 				</p>
 				<div class="flex justify-start items-center">
 					<a
-						href="/personal/estate-planning/last-will"
+						href="/business-services/dba"
 						class="inline-block border border-black bg-transparent rounded-full px-8 py-2 font-montserrat font-medium text-sm"
 						>Start my DBA</a
 					>
@@ -170,7 +178,7 @@
 				</p>
 				<div class="flex justify-start items-center">
 					<a
-						href="/personal/estate-planning/last-will"
+						href="/business-services/inc"
 						class="inline-block border border-black bg-transparent rounded-full px-8 py-2 font-montserrat font-medium text-sm"
 						>Start my Inc</a
 					>
