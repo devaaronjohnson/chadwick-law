@@ -539,6 +539,15 @@ video {
 .top-16 {
   top: 4rem;
 }
+.right-3 {
+  right: 0.75rem;
+}
+.top-2 {
+  top: 0.5rem;
+}
+.top-3 {
+  top: 0.75rem;
+}
 .z-10 {
   z-index: 10;
 }
@@ -895,6 +904,10 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -927,6 +940,18 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 .opacity-50 {
   opacity: 0.5;
@@ -970,6 +995,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(129 178 154 / var(--tw-bg-opacity));
 }
+.hover\:bg-brandOrange:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 122 95 / var(--tw-bg-opacity));
+}
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -978,8 +1007,16 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.hover\:text-brandOrange:hover {
+  --tw-text-opacity: 1;
+  color: rgb(224 122 95 / var(--tw-text-opacity));
+}
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 @media (min-width: 1024px) {
 

@@ -33,8 +33,8 @@
 			<label for="name"> Name </label>
 			<input
 				id="name"
-				class="border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full"
-				placeholder="Name"
+				class="border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full focus:outline-none"
+				placeholder="Name (required)"
 				bind:value={fullName}
 				on:focus={() => (fullNameClicked = true)}
 			/>
@@ -43,8 +43,8 @@
 			<label for="phone"> Phone </label>
 			<input
 				id="phone"
-				class="border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full"
-				placeholder="Phone"
+				class="border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full focus:outline-none"
+				placeholder="Phone (required)"
 				bind:value={phone}
 				on:focus={() => (phoneClicked = true)}
 			/>
@@ -53,8 +53,8 @@
 			<label for="Email"> Phone </label>
 			<input
 				id="email"
-				class="border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full"
-				placeholder="Email"
+				class="border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full focus:outline-none"
+				placeholder="Email (required)"
 				bind:value={email}
 				on:focus={() => (emailClicked = true)}
 			/>
@@ -64,10 +64,11 @@
 			on:click_outside={() => (showServiceList = false)}
 			class="w-full mb-3 relative"
 		>
+		<i class="fa-solid fa-caret-down absolute right-3 top-3 text-gray-400 z-10 text-2xl"></i>
 			<label for="relative service"> Service </label>
 			<input
 				id="service"
-				class="relative border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full"
+				class="relative border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full focus:outline-none"
 				placeholder="Select a service"
 				bind:value={service}
 				on:focus={() => {
@@ -77,17 +78,17 @@
 			/>
 			{#if showServiceList}
 				<div
-					class="w-full border border-red-300 bg-red-100 rounded p-5 absolute top-12 left-0 w-full shadow-xl z-10"
+					class="w-full bg-white rounded p-5 absolute top-12 left-0 shadow-2xl z-10"
 				>
 					<ul>
 						{#each services as s, i}
-							<li>
+							<li class="font-montserrat font-light">
 								<a
 									on:click|preventDefault={() => {
 										service = s;
 										showServiceList = false;
 									}}
-									href=".">{s}</a
+									href="." class="transition-all duration-200 hover:text-brandOrange">{s}</a
 								>
 							</li>
 						{/each}
@@ -100,7 +101,7 @@
 			<textarea
 				rows="4"
 				id="message"
-				class="border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full"
+				class="border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full focus:outline-none"
 				placeholder="Message"
 				bind:value={message}
 			/>

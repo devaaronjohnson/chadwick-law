@@ -6,6 +6,9 @@
 	// Default theme
 	import '@splidejs/svelte-splide/css';
 
+	// Variables
+	let services = ['Business Services', 'Contract Consultation', 'Estate Planning', 'Family', 'Human Resources', 'Real Estate', 'Other']
+
 	// Meta
 	let pageTitle = 'Connie Chadwick Law';
 </script>
@@ -27,13 +30,13 @@
 			<div class="flex justify-center lg:justify-start items-center">
 				<a
 					href="."
-					class="border border-brandOrange bg-brandOrange font-montserrat font-medium text-white text-base px-10 py-3 rounded-full transition-all duration-300 hover:bg-brandGreen hover:text-black inline-block"
+					class="border border-brandOrange bg-brandOrange font-montserrat font-medium text-white text-base px-10 py-3 rounded-full transition-all duration-300 hover:bg-brandOrange hover:text-black inline-block"
 					>Get Started</a
 				>
 			</div>
 		</div>
 		<div class="flex-1 pl-28">
-			<div class="translate-y-20"><Form /></div>
+			<div class="translate-y-20"><Form {services} /></div>
 		</div>
 	</div>
 </section>
@@ -210,7 +213,8 @@
 				height: '200px',
 				perMove: 1,
 				arrows: true,
-				padding: '0rem'
+				padding: '0rem',
+				speed: 1000
 			}}
 		>
 			<SplideSlide>
