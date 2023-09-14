@@ -106,7 +106,7 @@
 			/>
 		</div>
 		<button
-			class="w-full font-montserrat font-normal uppercase text-white text-base rounded px-8 py-3 border border-black bg-black"
+			class="w-full font-montserrat font-normal uppercase text-white text-base rounded-full px-8 py-3 border border-brandOrange bg-brandOrange"
 		>
 			Submit
 		</button>

@@ -2,6 +2,8 @@
 	import { Form } from '$components';
 	import { animateScroll } from 'svelte-scrollto-element';
 
+	let services = ['DBA', 'LLC', 'Inc'];
+
 	// Meta
 	let pageTitle = '';
 	let pageDescription = '';
@@ -27,7 +29,7 @@
 			</p>
 		</div>
 		<div class="flex-1 pl-28">
-			<div class="translate-y-20"><Form /></div>
+			<div class="translate-y-20"><Form {services} /></div>
 		</div>
 	</div>
 </section>
