@@ -9,9 +9,9 @@ module.exports = {
 				oregon: ['Oregon', 'sans-serif'],
 			},
 			colors: {
-				bgDarkLight: '#1c1c1c',
-				bgDark: '#121212',
-				brandGreen: '#A0FF27',
+				brandOrange: '#E07A5F',
+				brandDarkBlue: '#3D405B',
+				brandGreen: '#81B29A',
 			},
 		},
 	},
