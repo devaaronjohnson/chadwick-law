@@ -14,20 +14,20 @@
 	<title>{pageTitle}</title>
 </svelte:head>
 
-<section class="bg-gray-300 pt-0 pb-0">
+<section class="bg pt-16 pb-0">
 	<div class="w-full max-w-screen-xl mx-auto flex flex-row items-center">
 		<div class="w-1/2">
-			<h1 class="font-oregon font-medium text-black text-6xl">
+			<h1 class="font-oregon font-medium text-white text-6xl leading-none mb-2">
 				Legal expertise without the headaches.
 			</h1>
-			<p class="font-montserrat font-normal text-black text-xl mb-3">
+			<p class="font-montserrat font-normal text-white text-xl mb-5">
 				Legal services do not need to be complicated or expensive. Let me help walk you through your
 				legal needs in a timely manner at a reasonable fee.
 			</p>
 			<div class="flex justify-center lg:justify-start items-center">
 				<a
 					href="."
-					class="border border-black bg-black font-montserrat font-medium text-white text-base px-10 py-3 rounded-full transition-all duration-300 hover:bg-brandGreen hover:text-black inline-block"
+					class="border orange font-montserrat font-medium text-white text-base px-10 py-3 rounded-full transition-all duration-300 hover:bg-brandGreen hover:text-black inline-block"
 					>Get Started</a
 				>
 			</div>
@@ -42,7 +42,7 @@
 	<div class="w-full max-w-screen-xl mx-auto">
 		<h2 class="font-oregon font-medium text-black text-5xl mb-12">What I Can Help You With?</h2>
 		<div class="grid grid-cols-3 gap-12">
-			<div class="bg-gray-200 p-12 rounded-xl">
+			<div class="bg-gray-200 p-12 rounded-xl shadow-xl">
 				<div class="flex justify-center items-center mb-5">
 					<img src="/home.svg" alt="Estate Planning" class="h-12 w-auto" />
 				</div>
@@ -266,5 +266,15 @@
 	}
 	:global(.splide__slide) {
 		width: 100% !important;
+	}
+	.bg {
+		background: #3D405B;
+	}
+	.orange {
+		background: #E07A5F;
+		border-color: #E07A5F;
+	}
+	.bg_green {
+		background: #81B29A;
 	}
 </style>
