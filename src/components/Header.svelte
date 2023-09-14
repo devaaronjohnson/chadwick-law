@@ -4,33 +4,45 @@
 	//Booleans
 	let showPersonalMenu = false;
 	let showBusinessMenu = false;
+
+	// Variables
+	let y = 0;
 </script>
 
-<nav class="relative pt-5 pb-5">
+<svelte:window bind:scrollY={y} />
+
+<nav class="fixed top-0 left-0 w-full pt-5 pb-5 z-50 transition-all duration-300 {y < 30 ? 'bg-transparent' : 'bg-white opacity-[0.98]'}">
 	<div class="w-full max-w-screen-xl mx-auto">
 		<div class="flex flex-row items-center justify-between">
+			
 			<div class="flex-1">
+				{#if y < 30}
+				<a href="/">
+					<img src="/ccl_logo_white.png" alt="Connie Chadwick Law" class="h-16" />
+				</a>
+				{:else}
 				<a href="/">
 					<img src="/ccl_logo2.png" alt="Connie Chadwick Law" class="h-16" />
 				</a>
+				{/if}
 			</div>
-			<div id="nav" class="flex-1">
+			<div class="flex-1">
 				<ul class="flex items-center justify-end">
 					<li>
-						<a on:click|preventDefault={() => (showBusinessMenu = true)} href=".">
-							Business <i class="fa-light fa-angle-down" /></a
+						<a on:click|preventDefault={() => (showBusinessMenu = true)} href="." class="{y < 30 ? 'text-white' : 'text-black'}">
+							Business <i class="fa-light fa-angle-down {y < 30 ? 'text-white' : 'text-black'}" /></a
 						>
 					</li>
-					<li>
-						<a on:click|preventDefault={() => (showPersonalMenu = true)} href=".">
-							Personal <i class="fa-light fa-angle-down" /></a
+					<li class="pl-10">
+						<a on:click|preventDefault={() => (showPersonalMenu = true)} href="." class="{y < 30 ? 'text-white' : 'text-black'}">
+							Personal <i class="fa-light fa-angle-down {y < 30 ? 'text-white' : 'text-black'}" /></a
 						>
 					</li>
-					<li>
-						<a href="/about"> About </a>
+					<li class="pl-10">
+						<a href="/about" class="{y < 30 ? 'text-white' : 'text-black'}"> About </a>
 					</li>
-					<li>
-						<a href="/contact"> Contact </a>
+					<li class="pl-10">
+						<a href="/contact" class="{y < 30 ? 'text-white' : 'text-black'}"> Contact </a>
 					</li>
 				</ul>
 			</div>
