@@ -1,13 +1,13 @@
-<footer class="bg-black pt-20 pb-10">
-	<div class="w-full max-w-screen-xl mx-auto">
+<footer class="bg-black pt-12 lg:pt-20 pb-12">
+	<div class="container_xl container_padding">
 		<div class="flex flex-col lg:flex-row items-start">
-			<div class="flex-1">
-				<p class="font-montserrat font-bold text-white text-base">Estate Planning</p>
+			<div class="flex-1 mb-4 lg:mb-0">
+				<p class="font-montserrat font-medium text-white text-xl lg:text-base">Estate Planning</p>
 				<ul>
 					<li>
 						<a
 							href="."
-							class="font-montserrat font-normal text-white text-sm transition-all duration-300 hover:underline"
+							class="font-montserrat font-normal text-white text-lg lg:text-sm transition-all duration-300 hover:underline"
 						>
 							Last Will
 						</a>
@@ -15,36 +15,36 @@
 					<li>
 						<a
 							href="."
-							class="font-montserrat font-normal text-white text-sm transition-all duration-300 hover:underline"
+							class="font-montserrat font-normal text-white text-lg lg:text-sm transition-all duration-300 hover:underline"
 						>
-							Trust
+							Living Trust
 						</a>
 					</li>
 					<li>
 						<a
 							href="."
-							class="font-montserrat font-normal text-white text-sm transition-all duration-300 hover:underline"
+							class="font-montserrat font-normal text-white text-lg lg:text-sm transition-all duration-300 hover:underline"
 						>
-							Something Else
+							Living Will
 						</a>
 					</li>
 					<li>
 						<a
 							href="."
-							class="font-montserrat font-normal text-white text-sm transition-all duration-300 hover:underline"
+							class="font-montserrat font-normal text-white text-lg lg:text-sm transition-all duration-300 hover:underline"
 						>
-							Something else
+							Power of Attorney
 						</a>
 					</li>
 				</ul>
 			</div>
-			<div class="flex-1">
-				<p class="font-montserrat font-bold text-white text-base">Business</p>
+			<div class="flex-1 mb-4 lg:mb-0">
+				<p class="font-montserrat font-medium text-white text-xl lg:text-base">Business Services</p>
 				<ul>
 					<li>
 						<a
 							href="."
-							class="font-montserrat font-normal text-white text-sm transition-all duration-300 hover:underline"
+							class="font-montserrat font-normal text-white text-lg lg:text-sm transition-all duration-300 hover:underline"
 						>
 							LLC
 						</a>
@@ -52,7 +52,7 @@
 					<li>
 						<a
 							href="."
-							class="font-montserrat font-normal text-white text-sm transition-all duration-300 hover:underline"
+							class="font-montserrat font-normal text-white text-lg lg:text-sm transition-all duration-300 hover:underline"
 						>
 							DBA
 						</a>
@@ -60,7 +60,7 @@
 					<li>
 						<a
 							href="."
-							class="font-montserrat font-normal text-white text-sm transition-all duration-300 hover:underline"
+							class="font-montserrat font-normal text-white text-lg lg:text-sm transition-all duration-300 hover:underline"
 						>
 							Inc
 						</a>
