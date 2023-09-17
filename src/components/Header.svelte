@@ -246,14 +246,14 @@
 	<div
 		in:fly={{ duration: 750, x: 1000, easing: quintOut, opacity: 1 }}
 		out:fade={{ duration: 300 }}
-		class="fixed top-0 left-0 bottom-0 w-full bg-black z-50 flex justify-center items-center"
+		class="fixed top-0 left-0 bottom-0 w-full bg-black z-50 px-8 pt-28 overflow-y-scroll"
 	>
 		<a href="." on:click|preventDefault={() => (showMobileNav = false)}>
 			<i class="fa-regular fa-xmark text-4xl text-white absolute top-5 right-5" />
 		</a>
-		<ul class="relative flex flex-col items-center">
+		<ul class="relative flex flex-col items-end w-full">
 			<li
-				class="font-radio font-medium text-white text-3xl py-3 transition-all duration-200 hover:text-brandRed"
+				class="font-oregon font-medium text-white text-2xl py-3 transition-all duration-200 hover:text-brandRed"
 			>
 				<a
 					on:click={() => {
@@ -266,7 +266,7 @@
 				</a>
 			</li>
 			<li
-				class="font-radio font-medium text-white text-3xl py-3 transition-all duration-200 hover:text-brandRed"
+				class="font-oregon font-medium text-white text-2xl py-3 transition-all duration-200 hover:text-brandRed text-right"
 			>
 				<a
 					on:click={() => {
@@ -275,11 +275,41 @@
 					}}
 					href="."
 				>
-					Services
+					Estate Planning
 				</a>
+				<ul class="mt-2">
+					<li class="font-montserrat font-normal text-white text-lg text-right">
+						<a
+							href="/estate-planning/last-will"
+							class="text-white opacity-50 transition-all duration-200 hover:opacity-100"
+							>Last Will</a
+						>
+					</li>
+					<li class="font-montserrat font-normal text-white text-lg text-right">
+						<a
+							href="/estate-planning/living-trust"
+							class="text-white opacity-50 transition-all duration-200 hover:opacity-100"
+							>Living Trust</a
+						>
+					</li>
+					<li class="font-montserrat font-normal text-white text-lg text-right">
+						<a
+							href="/estate-planning/living-will"
+							class="text-white opacity-50 transition-all duration-200 hover:opacity-100"
+							>Living Will</a
+						>
+					</li>
+					<li class="font-montserrat font-normal text-white text-lg text-right">
+						<a
+							href="/estate-planning/power-of-attorney"
+							class="text-white opacity-50 transition-all duration-200 hover:opacity-100"
+							>Power of Attorney</a
+						>
+					</li>
+				</ul>
 			</li>
 			<li
-				class="font-radio font-medium text-white text-3xl py-3 transition-all duration-200 hover:text-brandRed"
+				class="font-oregon font-medium text-white text-2xl py-3 transition-all duration-200 hover:text-brandRed"
 			>
 				<a
 					on:click={() => {
@@ -288,11 +318,11 @@
 					}}
 					href="."
 				>
-					Pricing
+					Business Services
 				</a>
 			</li>
 			<li
-				class="font-radio font-medium text-white text-3xl py-3 transition-all duration-200 hover:text-brandRed"
+				class="font-oregon font-medium text-white text-2xl py-3 transition-all duration-200 hover:text-brandRed"
 			>
 				<a
 					on:click={() => {
@@ -301,11 +331,11 @@
 					}}
 					href="."
 				>
-					Why Choose Us?
+					Family
 				</a>
 			</li>
 			<li
-				class="font-radio font-medium text-white text-3xl py-3 transition-all duration-200 hover:text-brandRed"
+				class="font-oregon font-medium text-white text-2xl py-3 transition-all duration-200 hover:text-brandRed"
 			>
 				<a
 					on:click={() => {
@@ -314,7 +344,33 @@
 					}}
 					href="."
 				>
-					Contact Us
+					Real Estate
+				</a>
+			</li>
+			<li
+				class="font-oregon font-medium text-white text-2xl py-3 transition-all duration-200 hover:text-brandRed"
+			>
+				<a
+					on:click={() => {
+						animateScroll.scrollTo({ element: '#form', duration: 1000, offset: 730 });
+						showMobileNav = false;
+					}}
+					href="."
+				>
+					Human Resources & Labor
+				</a>
+			</li>
+			<li
+				class="font-oregon font-medium text-white text-2xl py-3 transition-all duration-200 hover:text-brandRed"
+			>
+				<a
+					on:click={() => {
+						animateScroll.scrollTo({ element: '#form', duration: 1000, offset: 730 });
+						showMobileNav = false;
+					}}
+					href="."
+				>
+					Contract Consultation
 				</a>
 			</li>
 		</ul>
