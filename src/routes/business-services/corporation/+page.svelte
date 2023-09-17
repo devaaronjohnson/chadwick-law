@@ -2,11 +2,11 @@
 	import { Form } from '$components';
 	import { animateScroll } from 'svelte-scrollto-element';
 
-	// Variables
-	let services = ['LLC'];
-
 	// Booleans
 	let showDetails = false;
+
+	// Variables
+	let services = ['Corporation'];
 
 	// Meta
 	let pageTitle = '';
@@ -22,12 +22,12 @@
 	<div class="relative container_xl container_padding flex flex-col lg:flex-row items-center">
 		<div class="relative w-full lg:w-1/2">
 			<h1 class="font-oregon font-medium text-white text-5xl lg:text-6xl mb-3 lg:mb-6">
-				Form your LLC
+				Start your corporation on the right path
 			</h1>
 			<p class="font-montserrat font-normal text-xl text-white mb-6">
-				We make launching and growing your business quick, easy, and affordable. Leave it to us to
-				check if your company name is available and file all the required forms. Save time and money
-				with our free LLC formation service so you can focus on building and growing your business.
+				If you want to make your business official—and attract investors—consider a corporation.
+				Incorporating your business allows you to be off the hook personally for its debts and
+				liabilities. Plus, you can issue shares and raise capital down the line.
 			</p>
 			<!-- <p class="font-montserrat font-normal text-black text-xl mb-3">
 				Legal services do not need to be complicated or expensive. Let me help walk you through your
@@ -54,25 +54,32 @@
 	<div class="container_xl container_padding">
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-20 mb-10 lg:mb-16">
 			<div>
-				<h2 class="font-oregon font-medium text-4xl text-black">What is an LLC?</h2>
+				<h2 class="font-oregon font-medium text-4xl text-black">What is a corperation?</h2>
 				<p class="font-montserrat font-normal text-base text-black mb-5">
-					A limited liability company (LLC) is a type of business entity you can register in your
-					state. The main purpose of an LLC company is to limit the personal liability of its
-					owners—like a corporation—but it also allows the business to operate with simpler, more
-					flexible tax requirements.
+					A corporation is a business entity created by filing formation documents with the state, a
+					process also known as incorporation.
+				</p>
+				<p class="font-montserrat font-normal text-base text-black mb-5">
+					Just like an LLC, a corporation is a legal entity that is separate from its owners, which
+					can protect you from any business liabilities or debts. However, corporations offer other
+					important benefits, like shareholders and the ability to seek outside investors.
 				</p>
 			</div>
 			<div>
-				<h2 class="font-oregon font-medium text-4xl text-black">Do I need an LLC?</h2>
-				<p class="font-montserrat font-normal text-base text-black mb-5">
-					An LLC isn’t always required, but many small business owners form an LLC for personal
-					liability protection. Having an LLC can also help you open bank accounts, enter into
-					contracts, hire employees, and get necessary business licenses and permits.
+				<h2 class="font-oregon font-medium text-4xl text-black">
+					What are corporation requirements?
+				</h2>
+				<p class="font-montserrat font-normal text-base text-black">
+					Corporations are typically required to adopt by-laws, hold annual shareholder meetings,
+					issue written corporate resolutions for significant decisions, and file annual reports.
+					Our service allows you to efficiently form your corporation the right way. We also have
+					packages with essential documents and services to meet these corporation requirements and
+					keep you in compliance.
 				</p>
 			</div>
 		</div>
 		<h2 class="font-oregon font-medium text-4xl lg:text-5xl text-black mb-8">
-			3 reasons for creating an LLC
+			What are the advantages of a corporation?
 		</h2>
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-20">
 			<div class="relative">
@@ -82,26 +89,24 @@
 					<p class="text-white">1</p>
 				</div> -->
 
-				<h2 class="relative font-oregon font-medium text-3xl text-brandOrange">
-					1-Protect your assets
-				</h2>
+				<h2 class="relative font-oregon font-medium text-3xl text-brandOrange">Attact Investors</h2>
 				<p class="relative font-montserrat font-normal text-base text-black mb-5">
-					By forming an LLC and keeping your personal finances separate, your personal assets are
-					protected from business liabilities.
+					Raise funds by appealing to investors who may prefer corporations for the ability to offer
+					stock.
 				</p>
 			</div>
 			<div>
-				<h2 class="font-oregon font-medium text-3xl text-brandOrange">2-Make things easier</h2>
+				<h2 class="font-oregon font-medium text-3xl text-brandOrange">Entice employees</h2>
 				<p class="font-montserrat font-normal text-base text-black mb-5">
-					Compared to corporations, LLCs are typically easier to start and have simpler rules for
-					things like record-keeping.
+					Attract and keep top talent by offering competitive benefits packages that include shares
+					of your company.
 				</p>
 			</div>
 			<div>
-				<h2 class="font-oregon font-medium text-3xl text-brandOrange">3-Get tax flexibility</h2>
+				<h2 class="font-oregon font-medium text-3xl text-brandOrange">Look more official</h2>
 				<p class="font-montserrat font-normal text-base text-black mb-5">
-					You get to decide how you’re taxed—as an LLC or a corporation—to maximize your potential
-					savings and minimize tax liability.
+					Corporations are often seen as more credible, which can make it easier to do business with
+					other companies.
 				</p>
 			</div>
 		</div>
@@ -112,7 +117,7 @@
 					animateScroll.scrollTo({ element: '#form', duration: 1000, offset: -50 })}
 				href="."
 				class="btn_hero border border-brandOrange bg-brandOrange text-white hover:bg-brandOrange hover:text-white"
-				>Start my LLC</a
+				>Start my Corporation</a
 			>
 		</div>
 	</div>

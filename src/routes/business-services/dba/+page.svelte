@@ -1,4 +1,9 @@
 <script>
+	import { Form } from '$components';
+	import { animateScroll } from 'svelte-scrollto-element';
+
+	let services = ['DBA'];
+
 	// Booleans
 	let showDetails = false;
 
@@ -11,25 +16,35 @@
 	<title>{pageTitle}</title>
 </svelte:head>
 
-<section class="pt-40 pb-40 bg-gray-200">
-	<div class="w-full max-w-screen-xl mx-auto">
-		<h1 class="font-oregon font-medium text-5xl text-black w-1/2 mb-5">
-			Build your brand with a DBA
-		</h1>
-
-		<p class="font-montserrat font-normal text-xl text-black w-1/2 mb-6">
-			Whether you’re going solo or looking to expand, your DBA (Doing Business As) can help
-			establish your brand, and set your company apart from the competition.
-		</p>
-		<p class="font-montserrat font-normal text-xl text-black w-1/2 mb-6">
-			Starts at $99 + state filing fees. These costs are often tax deductible.
-		</p>
-
-		<a
-			href="."
-			class="inline-block border border-black bg-black text-white font-montserrat font-medium text-base rounded-full px-6 py-3"
-			>Start my DBA</a
-		>
+<section class="relative bg-brandDarkBlue pt-32 lg:pt-16 pb-0">
+	<img src="/ccl_name.svg" alt="" class="bg_name" />
+	<div class="relative container_xl container_padding flex flex-col lg:flex-row items-center">
+		<div class="relative w-full lg:w-1/2">
+			<h1 class="font-oregon font-medium text-white text-5xl lg:text-6xl mb-3 lg:mb-6">
+				Build your brand with a DBA
+			</h1>
+			<p class="font-montserrat font-normal text-xl text-white mb-6">
+				Whether you’re going solo or looking to expand, your DBA (Doing Business As) can help
+				establish your brand, and set your company apart from the competition.
+			</p>
+			<!-- <p class="font-montserrat font-normal text-black text-xl mb-3">
+				Legal services do not need to be complicated or expensive. Let me help walk you through your
+				legal needs in a timely manner at a reasonable fee.
+			</p> -->
+			<!-- <div class="flex justify-start lg:justify-start items-center">
+				<a
+					href="."
+					class="btn_hero border border-brandOrange bg-brandOrange text-white hover:bg-brandOrange hover:text-white"
+					>Get Started</a
+				>
+			</div> -->
+			<p class="font-montserrat font-normal text-xl text-white">
+				Fill out the form to get started!
+			</p>
+		</div>
+		<div id="form" class="relative w-full lg:flex-1 pl-0 lg:pl-28">
+			<div class="translate-y-20"><Form {services} /></div>
+		</div>
 	</div>
 </section>
 
@@ -80,3 +95,13 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	.bg_name {
+		position: absolute;
+		left: 0px;
+		bottom: 0;
+		opacity: 0.1;
+		height: 200px;
+	}
+</style>
