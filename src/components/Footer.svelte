@@ -1,6 +1,6 @@
 <footer class="bg-black pt-20 pb-10">
 	<div class="w-full max-w-screen-xl mx-auto">
-		<div class="flex flex-row items-start">
+		<div class="flex flex-col lg:flex-row items-start">
 			<div class="flex-1">
 				<p class="font-montserrat font-bold text-white text-base">Estate Planning</p>
 				<ul>
