@@ -253,7 +253,7 @@
 		</a>
 		<ul class="relative flex flex-col items-end w-full">
 			<li
-				class="font-oregon font-medium text-white text-2xl py-3 transition-all duration-200 hover:text-brandRed"
+				class="font-oregon font-medium text-white text-3xl py-3 transition-all duration-200 hover:text-brandRed text-right"
 			>
 				<a
 					on:click={() => {
@@ -266,7 +266,7 @@
 				</a>
 			</li>
 			<li
-				class="font-oregon font-medium text-white text-2xl py-3 transition-all duration-200 hover:text-brandRed text-right"
+				class="font-oregon font-medium text-white text-3xl py-3 transition-all duration-200 hover:text-brandRed text-right"
 			>
 				<a
 					on:click={() => {
@@ -309,7 +309,7 @@
 				</ul>
 			</li>
 			<li
-				class="font-oregon font-medium text-white text-2xl py-3 transition-all duration-200 hover:text-brandRed"
+				class="font-oregon font-medium text-white text-3xl py-3 transition-all duration-200 hover:text-white text-right"
 			>
 				<a
 					on:click={() => {
@@ -320,9 +320,29 @@
 				>
 					Business Services
 				</a>
+				<ul class="mt-2">
+					<li class="font-montserrat font-normal text-white text-lg text-right">
+						<a
+							href="/business-services/dba"
+							class="text-white opacity-50 transition-all duration-200 hover:opacity-100">DBA</a
+						>
+					</li>
+					<li class="font-montserrat font-normal text-white text-lg text-right">
+						<a
+							href="/business-services/inc"
+							class="text-white opacity-50 transition-all duration-200 hover:opacity-100">Inc</a
+						>
+					</li>
+					<li class="font-montserrat font-normal text-white text-lg text-right">
+						<a
+							href="/business-services/llc"
+							class="text-white opacity-50 transition-all duration-200 hover:opacity-100">LLC</a
+						>
+					</li>
+				</ul>
 			</li>
 			<li
-				class="font-oregon font-medium text-white text-2xl py-3 transition-all duration-200 hover:text-brandRed"
+				class="font-oregon font-medium text-white text-3xl py-3 transition-all duration-200 hover:text-white text-right"
 			>
 				<a
 					on:click={() => {
@@ -335,7 +355,7 @@
 				</a>
 			</li>
 			<li
-				class="font-oregon font-medium text-white text-2xl py-3 transition-all duration-200 hover:text-brandRed"
+				class="font-oregon font-medium text-white text-3xl py-3 transition-all duration-200 hover:text-white text-right"
 			>
 				<a
 					on:click={() => {
@@ -348,7 +368,7 @@
 				</a>
 			</li>
 			<li
-				class="font-oregon font-medium text-white text-2xl py-3 transition-all duration-200 hover:text-brandRed"
+				class="font-oregon font-medium text-white text-3xl py-3 transition-all duration-200 hover:text-white text-right"
 			>
 				<a
 					on:click={() => {
@@ -357,11 +377,11 @@
 					}}
 					href="."
 				>
-					Human Resources & Labor
+					Human Resources & Labor Issues
 				</a>
 			</li>
 			<li
-				class="font-oregon font-medium text-white text-2xl py-3 transition-all duration-200 hover:text-brandRed"
+				class="font-oregon font-medium text-white text-3xl py-3 transition-all duration-200 hover:text-white text-right"
 			>
 				<a
 					on:click={() => {
