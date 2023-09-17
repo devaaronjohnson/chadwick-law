@@ -23,9 +23,9 @@
 	function submitForm() {}
 </script>
 
-<div class="relative bg-white p-10 rounded-3xl shadow-2xl">
+<div class="relative bg-white px-5 lg:px-10 py-10 lg:py-10 rounded-3xl shadow-2xl">
 	<h3 class="text-center font-oregon font-medium text-3xl text-black mb-3">Get Started</h3>
-	<p class="text-center font-montserrat font-light text-base text-black mb-5 px-10">
+	<p class="text-center font-montserrat font-light text-base text-black mb-5 px-0 lg:px-10">
 		Fill out the form below and I will get back to you within 24 hours.
 	</p>
 	<form on:submit|preventDefault={submitForm} class="relative">
@@ -64,7 +64,7 @@
 			on:click_outside={() => (showServiceList = false)}
 			class="w-full mb-3 relative"
 		>
-		<i class="fa-solid fa-caret-down absolute right-3 top-3 text-gray-400 z-10 text-2xl"></i>
+			<i class="fa-solid fa-caret-down absolute right-3 top-3 text-gray-400 z-10 text-2xl" />
 			<label for="relative service"> Service </label>
 			<input
 				id="service"
@@ -77,9 +77,7 @@
 				}}
 			/>
 			{#if showServiceList}
-				<div
-					class="w-full bg-white rounded p-5 absolute top-12 left-0 shadow-2xl z-10"
-				>
+				<div class="w-full bg-white rounded p-5 absolute top-12 left-0 shadow-2xl z-10">
 					<ul>
 						{#each services as s, i}
 							<li class="font-montserrat font-light">
@@ -88,7 +86,8 @@
 										service = s;
 										showServiceList = false;
 									}}
-									href="." class="transition-all duration-200 hover:text-brandOrange">{s}</a
+									href="."
+									class="transition-all duration-200 hover:text-brandOrange">{s}</a
 								>
 							</li>
 						{/each}

@@ -45,3 +45,21 @@
 }
 @tailwind utilities;
 @tailwind components;
+
+@layer components {
+	.container_2xl {
+		@apply w-full max-w-screen-2xl mx-auto;
+	}
+	.container_xl {
+		@apply w-full max-w-screen-xl mx-auto;
+	}
+	.container_lg {
+		@apply w-full max-w-screen-lg mx-auto;
+	}
+	.container_md {
+		@apply w-full max-w-screen-md mx-auto;
+	}
+	.container_padding {
+		@apply px-5 md:px-10 lg:px-5 2xl:px-0;
+	}
+}
