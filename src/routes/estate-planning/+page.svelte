@@ -12,7 +12,7 @@
 	<title>{pageTitle}</title>
 </svelte:head>
 
-<section class="bg-gray-300 pt-0 pb-0">
+<section class="bg-gray-300 pt-16 pb-0">
 	<div class="w-full max-w-screen-xl mx-auto flex flex-row items-center">
 		<div class="w-1/2">
 			<h1 class="font-oregon font-medium text-black text-6xl mb-6">
