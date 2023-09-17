@@ -3,6 +3,9 @@
 	import { Form } from '$components';
 	import { animateScroll } from 'svelte-scrollto-element';
 
+	// Variables
+	let services = ['Estate Planning', 'Living Will', 'Power of Attorney', 'Living Trust'];
+
 	// Meta
 	let pageTitle = '';
 	let pageDescription = '';
@@ -12,28 +15,29 @@
 	<title>{pageTitle}</title>
 </svelte:head>
 
-<section class="bg-gray-300 pt-0 pb-0">
-	<div class="w-full max-w-screen-xl mx-auto flex flex-row items-center">
-		<div class="w-1/2">
-			<h1 class="font-oregon font-medium text-black text-6xl mb-6">
+<section class="relative bg-brandDarkBlue pt-32 lg:pt-16 pb-0">
+	<img src="/ccl_name.svg" alt="" class="bg_name" />
+	<div class="relative container_xl container_padding flex flex-col lg:flex-row items-center">
+		<div class="relative w-full lg:w-1/2">
+			<h1 class="font-oregon font-medium text-white text-6xl mb-6">
 				Help protect your family's future with an estate plan
 			</h1>
 			<!-- <p class="font-montserrat font-normal text-black text-xl mb-3">
 				Legal services do not need to be complicated or expensive. Let me help walk you through your
 				legal needs in a timely manner at a reasonable fee.
 			</p> -->
-			<div class="flex justify-center lg:justify-start items-center">
+			<div class="flex justify-start lg:justify-start items-center">
 				<a
 					on:click|preventDefault={() =>
 						animateScroll.scrollTo({ element: '#services', duration: 1000 })}
 					href="."
-					class="border border-black bg-black font-montserrat font-medium text-white text-base px-10 py-3 rounded-full transition-all duration-300 hover:bg-brandGreen hover:text-black inline-block"
+					class="btn_hero border border-brandOrange bg-brandOrange text-white hover:bg-brandOrange hover:text-white"
 					>View Services</a
 				>
 			</div>
 		</div>
-		<div class="flex-1 pl-28">
-			<div class="translate-y-20"><Form /></div>
+		<div class="relative w-full lg:flex-1 pl-0 lg:pl-28">
+			<div class="translate-y-20"><Form {services} /></div>
 		</div>
 	</div>
 </section>
@@ -49,10 +53,14 @@
 	</div>
 </section> -->
 
-<section class="bg-white pt-28 pb-28">
-	<div class="w-full max-w-screen-xl mx-auto">
-		<h2 class="font-oregon font-medium text-black text-5xl mb-12">Estate Planning Services</h2>
-		<div class="grid grid-cols-4 gap-5">
+<section class="bg-white pt-44 lg:pt-28 pb-12 lg:pb-28">
+	<div class="container_xl container_padding">
+		<h2
+			class="font-oregon font-medium text-black text-3xl lg:text-5xl mb-12 text-center lg:text-left"
+		>
+			Estate Planning Services
+		</h2>
+		<div class="grid grid-cols-1 lg:grid-cols-4 gap-5">
 			<div id="services" class="shadow-xl p-8 rounded-xl bg-white">
 				<!-- <i class="fa-regular fa-house-heart text-4xl mb-5" /> -->
 				<h3 class="font-oregon font-medium text-black text-3xl text-left mb-3">Last will</h3>
@@ -67,7 +75,7 @@
 				<div class="flex justify-start items-center">
 					<a
 						href="/estate-planning/last-will"
-						class="inline-block border border-black bg-transparent rounded-full px-6 py-2 font-montserrat font-medium text-sm transition-all duration-200 hover:bg-black hover:text-white"
+						class="btn_sm border border-brandOrange bg-brandOrange font-montserrat hover:border-black hover:bg-black text-white"
 						>Learn More</a
 					>
 				</div>
@@ -86,8 +94,8 @@
 
 				<div class="flex justify-start items-center">
 					<a
-						href="/estate-planning/last-will"
-						class="inline-block border border-black bg-transparent rounded-full px-6 py-2 font-montserrat font-medium text-sm transition-all duration-200 hover:bg-black hover:text-white"
+						href="/estate-planning/living-will"
+						class="btn_sm border border-brandOrange bg-brandOrange font-montserrat hover:border-black hover:bg-black text-white"
 						>Learn More</a
 					>
 				</div>
@@ -106,8 +114,8 @@
 
 				<div class="flex justify-start items-center">
 					<a
-						href="/estate-planning/last-will"
-						class="inline-block border border-black bg-transparent rounded-full px-6 py-2 font-montserrat font-medium text-sm transition-all duration-200 hover:bg-black hover:text-white"
+						href="/estate-planning/power-of-attorney"
+						class="btn_sm border border-brandOrange bg-brandOrange font-montserrat hover:border-black hover:bg-black text-white"
 						>Learn More</a
 					>
 				</div>
@@ -126,8 +134,8 @@
 
 				<div class="flex justify-start items-center">
 					<a
-						href="/estate-planning/last-will"
-						class="inline-block border border-black bg-transparent rounded-full px-6 py-2 font-montserrat font-medium text-sm transition-all duration-200 hover:bg-black hover:text-white"
+						href="/estate-planning/living-trust"
+						class="btn_sm border border-brandOrange bg-brandOrange font-montserrat hover:border-black hover:bg-black text-white"
 						>Learn More</a
 					>
 				</div>
@@ -135,3 +143,13 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	.bg_name {
+		position: absolute;
+		right: 0px;
+		bottom: 0;
+		opacity: 0.1;
+		height: 200px;
+	}
+</style>
