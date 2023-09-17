@@ -1,6 +1,11 @@
 <script>
+	import { Form } from '$components';
+
 	// Booleans
 	let showDetails = false;
+
+	// Variables
+	let services = ['Last Will'];
 
 	// Meta
 	let pageTitle = '';
@@ -11,8 +16,8 @@
 	<title>{pageTitle}</title>
 </svelte:head>
 
-<section class="pt-40 pb-40 bg-gray-200">
-	<div class="w-full max-w-screen-xl mx-auto">
+<!-- <section class="pt-40 pb-40 bg-gray-200">
+	<div class="container_xl container_padding">
 		<h1 class="font-oregon font-medium text-5xl text-black w-1/2 mb-5">
 			Protect your family with a last will and testament
 		</h1>
@@ -26,16 +31,54 @@
 			>Start my last will</a
 		>
 	</div>
+</section> -->
+
+<section class="relative bg-brandDarkBlue pt-32 lg:pt-16 pb-0">
+	<img src="/ccl_name.svg" alt="" class="bg_name" />
+	<div class="relative container_xl container_padding flex flex-col lg:flex-row items-center">
+		<div class="relative w-full lg:w-1/2">
+			<h1 class="font-oregon font-medium text-white text-5xl lg:text-6xl mb-3 lg:mb-6">
+				Protect your family with a last will and testament
+			</h1>
+			<p class="font-montserrat font-normal text-xl text-white mb-6">
+				Build your last will and testament from the comfort of your home in under 15 minutes. Get
+				access to step-by-step help from experienced attorneys. Last wills start at $89.
+			</p>
+			<!-- <p class="font-montserrat font-normal text-black text-xl mb-3">
+				Legal services do not need to be complicated or expensive. Let me help walk you through your
+				legal needs in a timely manner at a reasonable fee.
+			</p> -->
+			<div class="flex justify-start lg:justify-start items-center">
+				<a
+					href="."
+					class="btn_hero border border-brandOrange bg-brandOrange text-white hover:bg-brandOrange hover:text-white"
+					>Get Started</a
+				>
+			</div>
+		</div>
+		<div class="relative w-full lg:flex-1 pl-0 lg:pl-28">
+			<div class="translate-y-20"><Form {services} /></div>
+		</div>
+	</div>
 </section>
 
-<section class="pt-28 pb-28">
-	<div class="w-full max-w-screen-xl mx-auto">
-		<div class="flex flex-row items-start">
-			<div class="flex-1 pr-16">
-				<img src="/family_last_will.jpg" alt="Last will and testament" class="w-full" />
+<section class="pt-40 lg:pt-32 pb-12 lg:pb-28">
+	<div class="container_xl">
+		<div class="flex flex-col lg:flex-row items-start">
+			<div class="w-full lg:flex-1 pr-0 lg:pr-16 mb-8 lg:mb-0">
+				<img
+					src="/family_last_will.jpg"
+					alt="Last will and testament"
+					class="hidden lg:block w-full"
+				/>
+				<img
+					src="/family_last_will_mobile.png"
+					alt="Last will and testament"
+					class="block lg:hidden w-full"
+				/>
 			</div>
-			<div class="w-1/2">
-				<h2 class="font-oregon font-medium text-4xl text-black">
+			<div class="w-full lg:w-1/2 container_padding">
+				<h2 class="font-oregon font-medium text-3xl lg:text-4xl text-black mb-1 lg:mb-0">
 					What is a last will and testament?
 				</h2>
 				<p class="font-montserrat font-normal text-base text-black mb-5">
@@ -102,3 +145,13 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	.bg_name {
+		position: absolute;
+		left: 0px;
+		bottom: 0;
+		opacity: 0.1;
+		height: 200px;
+	}
+</style>
