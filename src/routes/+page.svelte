@@ -38,7 +38,7 @@
 			<div class="flex justify-start lg:justify-start items-center">
 				<a
 					href="."
-					class="border border-brandOrange bg-brandOrange font-montserrat font-medium text-white text-base px-10 py-3 rounded-full transition-all duration-300 hover:bg-brandOrange hover:text-black inline-block"
+					class="btn_hero border border-brandOrange bg-brandOrange text-white hover:bg-brandOrange hover:text-white"
 					>Get Started</a
 				>
 			</div>
