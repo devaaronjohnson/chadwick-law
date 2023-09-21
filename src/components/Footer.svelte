@@ -1,7 +1,13 @@
+<script>
+	import { Testimonials } from '$components';
+</script>
+
+<Testimonials />
+
 <footer class="bg-white pt-12 lg:pt-20 pb-12">
 	<div class="container_xl container_padding">
 		<div class="flex flex-col lg:flex-row items-start">
-			<div class="flex-none mb-4 lg:mb-0 pr-20">
+			<div class="flex-none mb-4 lg:mb-0 pr-12">
 				<a href="/">
 					<img src="/ccl_logo2.png" alt="Connie Chadwick Law" class="h-16 lg:h-16" />
 				</a>

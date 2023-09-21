@@ -5,6 +5,8 @@
 
 	export let services = ['Last will', 'Living will', 'Power of attorney', 'Living trust'];
 
+	export let defaultService;
+
 	// Booleans
 	let showServiceList = false;
 
@@ -13,7 +15,7 @@
 		phone,
 		email,
 		message,
-		service = '';
+		service = defaultService;
 
 	let fullNameClicked,
 		phoneClicked,
