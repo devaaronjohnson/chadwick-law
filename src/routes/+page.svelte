@@ -2,9 +2,9 @@
 	// Components
 	import { Form } from '$components';
 
-	import { Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
-	// Default theme
-	import '@splidejs/svelte-splide/css';
+	// import { Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
+	// // Default theme
+	// import '@splidejs/svelte-splide/css';
 
 	// Variables
 	let services = [
@@ -25,9 +25,9 @@
 	<title>{pageTitle}</title>
 </svelte:head>
 
-<section class="bg-brandDarkBlue pt-32 lg:pt-16 pb-0">
+<section class="relative bg-brandDarkBlue pt-32 lg:pt-16 pb-0">
 	<img src="/ccl_name.svg" alt="" class="bg_name" />
-	<div class="container_xl container_padding flex flex-col lg:flex-row items-center">
+	<div class="relative container_xl container_padding flex flex-col lg:flex-row items-center">
 		<div class="w-full lg:w-1/2">
 			<h1 class="font-oregon font-medium text-white text-6xl leading-none mb-2">
 				Legal expertise without the headaches.
@@ -100,14 +100,14 @@
 				<div class="flex justify-center items-center mb-5">
 					<i class="fa-regular fa-family text-5xl text-brandOrange" />
 				</div>
-				<h3 class="font-oregon font-medium text-black text-3xl text-center mb-3">Family</h3>
+				<h3 class="font-oregon font-medium text-black text-3xl text-center mb-3">Divorce</h3>
 				<p class="font-montserrat font-normal text-black text-sm text-center mb-4">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequatur quia
 					aspernatur eaque optio officiis.
 				</p>
 				<div class="flex justify-center items-center">
 					<a
-						href="/family"
+						href="/divorce"
 						class="font-montserrat font-medium text-sm border bg-brandOrange border-brandOrange rounded-full text-white px-6 py-2"
 						>Get Started</a
 					>
@@ -579,78 +579,6 @@
 	</div>
 </section>
 
-<section class="bg-brandDarkBlue pt-12 lg:pt-28 pb-12 lg:pb-28">
-	<div class="container_xl">
-		<h2 class="font-oregon font-medium text-white text-3xl lg:text-5xl mb-5 lg:mb-12 text-center">
-			What people are saying
-		</h2>
-
-		<Splide
-			options={{
-				type: 'loop',
-				perPage: 1,
-				perMove: 1,
-				arrows: true,
-				padding: '0rem',
-				speed: 1000,
-				autoHeight: true
-			}}
-		>
-			<SplideSlide>
-				<div class="testimonial">
-					<p class="font-montserrat font-normal text-white text-base lg:text-lg mb-4 text-center">
-						I found her to be compassionate to my needs and concerns, timely and efficient, fair in
-						pricing with a true desire to settle as fairly and quickly as possible without selling
-						you out. She'll fight your cause. She is knowledgeable in ethics and procedures, with
-						true concerns on how your situation is affecting you.
-					</p>
-					<p class="font-montserrat font-normal text-white text-base lg:text-lg mb-4 text-center">
-						- Mike
-					</p>
-				</div>
-			</SplideSlide>
-			<SplideSlide>
-				<div class="testimonial">
-					<p class="font-montserrat font-normal text-white text-base lg:text-lg mb-4 text-center">
-						Connie Chadwick goes over and above her line of duty! She is very thorough in what she
-						does and is always prepared. She relates to you on a personal level, not just a client.
-						My opinion would be if you are looking for this character, and intellect she is the one!
-					</p>
-					<p class="font-montserrat font-normal text-white text-base lg:text-lg mb-4 text-center">
-						- Dawn
-					</p>
-				</div>
-			</SplideSlide>
-			<SplideSlide>
-				<div class="testimonial">
-					<p class="font-montserrat font-normal text-white text-base lg:text-lg mb-4 text-center">
-						I hired conine Chadwick to work on my civil case. Connie has a drive to perform the task
-						at hand. Works hard to achieve the best possible results. Communication is open, work
-						quick response. Truthful with the facts. I'm very happy with Connie Chadwick and will
-						always reference her to handle any other matters that may arise.
-					</p>
-					<p class="font-montserrat font-normal text-white text-base lg:text-lg mb-4 text-center">
-						- Andrew
-					</p>
-				</div>
-			</SplideSlide>
-			<SplideSlide>
-				<div class="testimonial">
-					<p class="font-montserrat font-normal text-white text-base lg:text-lg mb-4 text-center">
-						Connie did an amazing job of walking me through the difficult process of my divorce. She
-						was very knowledgable and offered great advice. I could not imagine things going more
-						smoothly. She was professional, trustworthy. I would recommend her to anyone facing the
-						same ordeal.
-					</p>
-					<p class="font-montserrat font-normal text-white text-base lg:text-lg mb-4 text-center">
-						- Aaron
-					</p>
-				</div>
-			</SplideSlide>
-		</Splide>
-	</div>
-</section>
-
 <style>
 	.testimonial {
 		width: 100%;
@@ -680,7 +608,7 @@
 	.bg_name {
 		position: absolute;
 		left: 0px;
-		bottom: 20px;
+		bottom: 10px;
 		opacity: 0.1;
 		height: 200px;
 	}

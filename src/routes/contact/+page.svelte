@@ -1,4 +1,6 @@
 <script>
+	import { clickOutside } from '$lib/clickOutside';
+
 	// Booleans
 	let showServiceList = false;
 
@@ -31,9 +33,9 @@
 
 <section class="relative bg-brandDarkBlue pt-0 lg:pt-36 pb-0 lg:pb-24">
 	<img src="/ccl_name.svg" alt="" class="bg_name" />
-	<div class="container_xl container_padding flex flex-col lg:flex-row items-center">
-		<div class="w-full lg:w-2/3">
-			<h1 class="font-oregon font-medium text-white text-6xl leading-none mb-2">
+	<div class="relative container_xl container_padding flex flex-col lg:flex-row items-center">
+		<div class="relative w-full lg:w-2/3">
+			<h1 class="relative font-oregon font-medium text-white text-6xl leading-none mb-2">
 				Have specific question or need assistance with something...
 			</h1>
 			<!-- <p class="font-montserrat font-normal text-white text-xl mb-5">
@@ -54,8 +56,9 @@
 	</div>
 </section>
 
-<section class="pt-16 pb-16">
+<section class="pt-12 lg:pt-20 pb-12 lg:pb-24">
 	<div class="w-full max-w-screen-lg mx-auto">
+		<p class="font-montserrat font-light text-xl mb-6">Please fill out the form below and I will be in touch within 24 hours.</p>
 		<form on:submit|preventDefault={submitForm} class="relative">
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
 				<div class="w-full mb-3 relative">
@@ -155,7 +158,7 @@
 	.bg_name {
 		position: absolute;
 		right: 20px;
-		bottom: -30px;
+		bottom: 0px;
 		opacity: 0.1;
 		height: 200px;
 	}
