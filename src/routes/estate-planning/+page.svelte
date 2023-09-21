@@ -4,7 +4,8 @@
 	import { animateScroll } from 'svelte-scrollto-element';
 
 	// Variables
-	let services = ['Estate Planning', 'Living Will', 'Power of Attorney', 'Living Trust'];
+	let services = ['Living Trust', 'Living Will', 'Power of Attorney', 'Living Trust'];
+	let defaultService = 'Estate Planning';
 
 	// Meta
 	let pageTitle = '';
@@ -22,6 +23,12 @@
 			<h1 class="font-oregon font-medium text-white text-6xl mb-6">
 				Help protect your family's future with an estate plan
 			</h1>
+			<p class="font-montserrat font-normal text-xl text-white mb-6">
+				Fill out the form or call me at <a
+					class="underline underline-offset-4"
+					href="tel:6154172129">615-417-2129</a
+				> to get started.
+			</p>
 			<!-- <p class="font-montserrat font-normal text-black text-xl mb-3">
 				Legal services do not need to be complicated or expensive. Let me help walk you through your
 				legal needs in a timely manner at a reasonable fee.
@@ -29,7 +36,7 @@
 			<div class="flex justify-start lg:justify-start items-center">
 				<a
 					on:click|preventDefault={() =>
-						animateScroll.scrollTo({ element: '#services', duration: 1000 })}
+						animateScroll.scrollTo({ element: '#services', duration: 1000, offset: -150 })}
 					href="."
 					class="btn_hero border border-brandOrange bg-brandOrange text-white hover:bg-brandOrange hover:text-white"
 					>View Services</a
@@ -37,7 +44,7 @@
 			</div>
 		</div>
 		<div class="relative w-full lg:flex-1 pl-0 lg:pl-28">
-			<div class="translate-y-20"><Form {services} /></div>
+			<div class="translate-y-20"><Form {defaultService} {services} /></div>
 		</div>
 	</div>
 </section>
@@ -75,7 +82,7 @@
 				<div class="flex justify-start items-center">
 					<a
 						href="/estate-planning/last-will"
-						class="btn_sm border border-brandOrange bg-brandOrange font-montserrat hover:border-black hover:bg-black text-white"
+						class="btn_sm border border-brandOrange bg-transparent font-montserrat hover:border-brandOrange hover:bg-brandOrange text-brandOrange hover:text-white transition-all duration-200"
 						>Learn More</a
 					>
 				</div>
@@ -95,7 +102,7 @@
 				<div class="flex justify-start items-center">
 					<a
 						href="/estate-planning/living-will"
-						class="btn_sm border border-brandOrange bg-brandOrange font-montserrat hover:border-black hover:bg-black text-white"
+						class="btn_sm border border-brandOrange bg-transparent font-montserrat hover:border-brandOrange hover:bg-brandOrange text-brandOrange hover:text-white transition-all duration-200"
 						>Learn More</a
 					>
 				</div>
@@ -115,7 +122,7 @@
 				<div class="flex justify-start items-center">
 					<a
 						href="/estate-planning/power-of-attorney"
-						class="btn_sm border border-brandOrange bg-brandOrange font-montserrat hover:border-black hover:bg-black text-white"
+						class="btn_sm border border-brandOrange bg-transparent font-montserrat hover:border-brandOrange hover:bg-brandOrange text-brandOrange hover:text-white transition-all duration-200"
 						>Learn More</a
 					>
 				</div>
@@ -135,7 +142,7 @@
 				<div class="flex justify-start items-center">
 					<a
 						href="/estate-planning/living-trust"
-						class="btn_sm border border-brandOrange bg-brandOrange font-montserrat hover:border-black hover:bg-black text-white"
+						class="btn_sm border border-brandOrange bg-transparent font-montserrat hover:border-brandOrange hover:bg-brandOrange text-brandOrange hover:text-white transition-all duration-200"
 						>Learn More</a
 					>
 				</div>

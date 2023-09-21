@@ -6,6 +6,7 @@
 
 	// Variables
 	let services = ['Living Trust'];
+	let defaultService = 'Living Trust';
 
 	// Meta
 	let pageTitle = '';
@@ -46,20 +47,26 @@
 				affordably—whether that's on your own, or with help from estate planing attorneys in our
 				network. Living trusts start at $279.
 			</p>
+			<p class="font-montserrat font-normal text-xl text-white mb-6">
+				Fill out the form to get started or call me at <a
+					class="underline underline-offset-4"
+					href="tel:6154172129">615-417-2129</a
+				> to get started.
+			</p>
 			<!-- <p class="font-montserrat font-normal text-black text-xl mb-3">
 				Legal services do not need to be complicated or expensive. Let me help walk you through your
 				legal needs in a timely manner at a reasonable fee.
 			</p> -->
-			<div class="flex justify-start lg:justify-start items-center">
+			<!-- <div class="flex justify-start lg:justify-start items-center">
 				<a
 					href="."
 					class="btn_hero border border-brandOrange bg-brandOrange text-white hover:bg-brandOrange hover:text-white"
 					>Get Started</a
 				>
-			</div>
+			</div> -->
 		</div>
 		<div class="relative w-full lg:flex-1 pl-0 lg:pl-28">
-			<div class="translate-y-20"><Form {services} /></div>
+			<div class="translate-y-20"><Form {defaultService} {services} /></div>
 		</div>
 	</div>
 </section>

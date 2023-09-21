@@ -42,7 +42,7 @@
 							href="."
 							class={y < 30 ? 'text-white' : 'text-black'}
 						>
-							Services <i
+							Practice Areas <i
 								class="transition-all duration-500 fa-light fa-angle-down {y < 30
 									? 'text-white'
 									: 'text-black'} {showMenu ? 'rotate-180' : 'rotate-0'}"
@@ -56,6 +56,7 @@
 								<ul>
 									<li class="text-sm leading-relaxed">
 										<a
+											on:click={() => (showMenu = false)}
 											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
 											href="/estate-planning"
 										>
@@ -64,6 +65,7 @@
 									</li>
 									<li class="text-sm leading-relaxed">
 										<a
+											on:click={() => (showMenu = false)}
 											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
 											href="/business-services"
 										>
@@ -72,14 +74,16 @@
 									</li>
 									<li class="text-sm leading-relaxed">
 										<a
+											on:click={() => (showMenu = false)}
 											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
 											href="/family"
 										>
-											Family
+											Divorce
 										</a>
 									</li>
 									<li class="text-sm leading-relaxed">
 										<a
+											on:click={() => (showMenu = false)}
 											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
 											href="/real-estate"
 										>
@@ -88,6 +92,7 @@
 									</li>
 									<li class="text-sm leading-relaxed">
 										<a
+											on:click={() => (showMenu = false)}
 											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
 											href="/about"
 										>
@@ -96,6 +101,7 @@
 									</li>
 									<li class="text-sm leading-relaxed">
 										<a
+											on:click={() => (showMenu = false)}
 											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
 											href="/about"
 										>
@@ -107,11 +113,17 @@
 						{/if}
 					</li>
 
-					<li class="pl-10 text-base ml-6">
+					<li class="text-base ml-10">
 						<a href="/about" class={y < 30 ? 'text-white' : 'text-black'}> About </a>
 					</li>
-					<li class="pl-10 text-base ml-6">
+					<li class="text-base ml-10">
 						<a href="/contact" class={y < 30 ? 'text-white' : 'text-black'}> Contact </a>
+					</li>
+					<li class="ml-10 text-base text-white">
+						<a href="tel:6154172129">
+							<i class="fa-light fa-phone-rotary mr-1" />
+							615-417-2129
+						</a>
 					</li>
 				</ul>
 			</div>
