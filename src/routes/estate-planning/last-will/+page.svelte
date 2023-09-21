@@ -6,6 +6,7 @@
 
 	// Variables
 	let services = ['Last Will'];
+	let defaultService = 'Last Will';
 
 	// Meta
 	let pageTitle = '';
@@ -44,20 +45,26 @@
 				Build your last will and testament from the comfort of your home in under 15 minutes. Get
 				access to step-by-step help from experienced attorneys. Last wills start at $89.
 			</p>
+			<p class="font-montserrat font-normal text-xl text-white mb-6">
+				Fill out the form or call me at <a
+					class="underline underline-offset-4"
+					href="tel:6154172129">615-417-2129</a
+				> to get started.
+			</p>
 			<!-- <p class="font-montserrat font-normal text-black text-xl mb-3">
 				Legal services do not need to be complicated or expensive. Let me help walk you through your
 				legal needs in a timely manner at a reasonable fee.
 			</p> -->
-			<div class="flex justify-start lg:justify-start items-center">
+			<!-- <div class="flex justify-start lg:justify-start items-center">
 				<a
 					href="."
 					class="btn_hero border border-brandOrange bg-brandOrange text-white hover:bg-brandOrange hover:text-white"
 					>Get Started</a
 				>
-			</div>
+			</div> -->
 		</div>
 		<div class="relative w-full lg:flex-1 pl-0 lg:pl-28">
-			<div class="translate-y-20"><Form {services} /></div>
+			<div class="translate-y-20"><Form {defaultService} {services} /></div>
 		</div>
 	</div>
 </section>
