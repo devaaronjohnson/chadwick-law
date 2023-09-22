@@ -72,11 +72,11 @@
 		<p class="font-montserrat font-normal text-black text-lg lg:text-base text-left mb-3">
 			Decide what happens to your property and who raises your children.
 		</p>
-		<div id="services" class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-10">
-			<div class="shadow-xl p-12 rounded-xl bg-white">
+		<div id="services" class="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-10">
+			<div class="shadow-xl p-8 rounded-xl bg-white">
 				<!-- <i class="fa-regular fa-house-heart text-4xl mb-5" /> -->
 				<h3 class="font-oregon font-medium text-black text-3xl text-left mb-3">LLC</h3>
-				<p class="font-montserrat font-medium text-black text-base text-left">
+				<p class="font-montserrat font-medium text-black text-sm text-left">
 					Limited Liability Company
 				</p>
 
@@ -85,7 +85,7 @@
 				</p>
 				<p class="font-montserrat font-normal text-black text-base text-left mb-3">
 					Going solo or teaming up? Make sure you're not on the hook for business liabilities with
-					an LLC. Get yours started for free—just pay state filing fees.
+					an LLC.
 				</p>
 				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$89</p>
 
@@ -129,10 +129,10 @@
 					</ul>
 				</div> -->
 			</div>
-			<div class="shadow-xl p-12 rounded-xl bg-white">
+			<div class="shadow-xl p-8 rounded-xl bg-white">
 				<!-- <i class="fa-regular fa-house-heart text-4xl mb-5" /> -->
 				<h3 class="font-oregon font-medium text-black text-3xl text-left mb-3">DBA</h3>
-				<p class="font-montserrat font-medium text-black text-base text-left">Doing Business As</p>
+				<p class="font-montserrat font-medium text-black text-sm text-left">Doing Business As</p>
 
 				<p class="font-montserrat font-normal text-black text-base text-left mb-3">
 					Go by a different business name without creating a new company. Over half of our DBA
@@ -145,45 +145,12 @@
 						class="btn_sm border border-brandOrange bg-brandOrange text-white">Start my DBA</a
 					>
 				</div>
-				<!-- <div class="mt-6">
-					<p class="font-montserrat font-bold text-base">How it's unique</p>
-					<ul class="list-disc pl-6">
-						<li class="font-montserrat font-normal text-base">
-							Better for max flexibility in how you manage and run your business; board of directors
-							not required
-						</li>
-						<li class="font-montserrat font-normal text-base">
-							Unlimited owners (aka "members") allowed
-						</li>
-					</ul>
-
-					<p class="font-montserrat font-bold text-base">Protections and taxations</p>
-					<ul class="list-disc pl-6">
-						<li class="font-montserrat font-normal text-base">
-							You're <span class="italic">not</span> personally on the hook for business liabilities
-						</li>
-						<li class="font-montserrat font-normal text-base">
-							Taxed once or twice; you're free to choose which can help minimize taxes
-						</li>
-					</ul>
-
-					<p class="font-montserrat font-bold text-base">Drawbacks to consider</p>
-					<ul class="list-disc pl-6">
-						<li class="font-montserrat font-normal text-base">
-							Ongoing filings and fees to stay in compliance
-						</li>
-						<li class="font-montserrat font-normal text-base">LLC's can't go public</li>
-						<li class="font-montserrat font-normal text-base">
-							Not recognized globally; you may be taxed as a corporation in other countries
-						</li>
-					</ul>
-				</div> -->
 			</div>
 
-			<div class="shadow-xl p-12 rounded-xl bg-white">
+			<div class="shadow-xl p-8 rounded-xl bg-white">
 				<!-- <i class="fa-regular fa-house-heart text-4xl mb-5" /> -->
 				<h3 class="font-oregon font-medium text-black text-3xl text-left">Corporation</h3>
-				<p class="font-montserrat font-medium text-black text-base text-left">(S or C Corp)</p>
+				<p class="font-montserrat font-medium text-black text-sm text-left">(S or C Corp)</p>
 
 				<p class="font-montserrat font-normal text-black text-sm text-left mb-3">
 					Start up costs are often tax deductible
@@ -199,39 +166,27 @@
 						>Start my Corporation</a
 					>
 				</div>
-				<!-- <div class="mt-6">
-					<p class="font-montserrat font-bold text-base">How it's unique</p>
-					<ul class="list-disc pl-6">
-						<li class="font-montserrat font-normal text-base">
-							Better for max flexibility in how you manage and run your business; board of directors
-							not required
-						</li>
-						<li class="font-montserrat font-normal text-base">
-							Unlimited owners (aka "members") allowed
-						</li>
-					</ul>
+			</div>
 
-					<p class="font-montserrat font-bold text-base">Protections and taxations</p>
-					<ul class="list-disc pl-6">
-						<li class="font-montserrat font-normal text-base">
-							You're <span class="italic">not</span> personally on the hook for business liabilities
-						</li>
-						<li class="font-montserrat font-normal text-base">
-							Taxed once or twice; you're free to choose which can help minimize taxes
-						</li>
-					</ul>
+			<div class="shadow-xl p-8 rounded-xl bg-white">
+				<!-- <i class="fa-regular fa-house-heart text-4xl mb-5" /> -->
+				<h3 class="font-oregon font-medium text-black text-3xl text-left">Partnership</h3>
+				<p class="font-montserrat font-medium text-black text-base text-left" />
 
-					<p class="font-montserrat font-bold text-base">Drawbacks to consider</p>
-					<ul class="list-disc pl-6">
-						<li class="font-montserrat font-normal text-base">
-							Ongoing filings and fees to stay in compliance
-						</li>
-						<li class="font-montserrat font-normal text-base">LLC's can't go public</li>
-						<li class="font-montserrat font-normal text-base">
-							Not recognized globally; you may be taxed as a corporation in other countries
-						</li>
-					</ul>
-				</div> -->
+				<p class="font-montserrat font-normal text-black text-sm text-left mb-3">
+					Start up costs are often tax deductible
+				</p>
+				<p class="font-montserrat font-normal text-black text-base text-left mb-3">
+					Plan to issue shares, go public, or go global? Go further as a corporation.
+				</p>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$89</p>
+				<div class="flex justify-start items-center">
+					<a
+						href="/business-services/partnership"
+						class="btn_sm border border-brandOrange bg-brandOrange text-white"
+						>Start my Partnership</a
+					>
+				</div>
 			</div>
 		</div>
 	</div>
