@@ -12,7 +12,7 @@
 					<img src="/ccl_logo2.png" alt="Connie Chadwick Law" class="h-16 lg:h-16" />
 				</a>
 			</div>
-			<div class="w-1/3 mb-4 lg:mb-0">
+			<div class="w-full lg:w-1/3 mb-4 lg:mb-0">
 				<p class="font-montserrat font-bold text-black text-xl lg:text-base">Estate Planning</p>
 				<ul>
 					<li>
@@ -49,7 +49,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="w-1/3 mb-4 lg:mb-0">
+			<div class="w-full lg:w-1/3 mb-4 lg:mb-0">
 				<p class="font-montserrat font-bold text-black text-xl lg:text-base">Business Services</p>
 				<ul>
 					<li>
@@ -78,14 +78,14 @@
 					</li>
 				</ul>
 			</div>
-			<div class="w-2/5">
+			<div class="w-full lg:w-2/5">
 				<p class="font-montserrat font-bold text-black text-base">Real Estate</p>
 				<p class="font-montserrat font-bold text-black text-base">Divorce</p>
 				<p class="font-montserrat font-bold text-black text-base">Human Resources & Labor Issues</p>
 				<p class="font-montserrat font-bold text-black text-base">Contract Consultation</p>
 			</div>
 
-			<div class="pl-10 w-1/4">
+			<div class="pl-10 w-full lg: w-1/4">
 				<p class="font-montserrat font-bold text-black text-base">Follow</p>
 				<ul class="flex flex-row items-center">
 					<li>
