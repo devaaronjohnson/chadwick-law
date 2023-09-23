@@ -45,7 +45,7 @@
 			</div>
 		</div>
 		<div class="w-full lg:flex-1 pl-0 lg:pl-28">
-			<div class="translate-y-20"><Form {services} /></div>
+			<div class="translate-y-20"><Form defaultService="" {services} /></div>
 		</div>
 	</div>
 </section>
@@ -66,8 +66,8 @@
 					Estate Planning
 				</h3>
 				<p class="font-montserrat font-normal text-black text-sm text-center mb-5">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequatur quia
-					aspernatur eaque optio officiis.
+					Secure your assets, minimize taxes, and ensure a smooth transfer of wealth to loved ones
+					with expert legal guidance
 				</p>
 				<div class="flex justify-center items-center">
 					<a
@@ -85,8 +85,8 @@
 					Business Services
 				</h3>
 				<p class="font-montserrat font-normal text-black text-sm text-center mb-4">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequatur quia
-					aspernatur eaque optio officiis.
+					Comprehensive legal solutions for businesses: contracts, compliance, litigation, and
+					strategic counsel. Protecting your interests and ensuring success
 				</p>
 				<div class="flex justify-center items-center">
 					<a
@@ -102,8 +102,8 @@
 				</div>
 				<h3 class="font-oregon font-medium text-black text-3xl text-center mb-3">Divorce</h3>
 				<p class="font-montserrat font-normal text-black text-sm text-center mb-4">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequatur quia
-					aspernatur eaque optio officiis.
+					Comprehensive divorce legal support: Experienced attorneys navigate complex laws, protect
+					your interests, and guide you toward a fair resolution
 				</p>
 				<div class="flex justify-center items-center">
 					<a
@@ -119,8 +119,8 @@
 				</div>
 				<h3 class="font-oregon font-medium text-black text-3xl text-center mb-3">Real Estate</h3>
 				<p class="font-montserrat font-normal text-black text-sm text-center mb-4">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequatur quia
-					aspernatur eaque optio officiis.
+					Comprehensive real estate services tailored to attorneys, simplifying transactions, title
+					research, and legal support for seamless property dealings
 				</p>
 				<div class="flex justify-center items-center">
 					<a
@@ -138,8 +138,8 @@
 					Human Resources & Labor Issues
 				</h3>
 				<p class="font-montserrat font-normal text-black text-sm text-center mb-4">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequatur quia
-					aspernatur eaque optio officiis.
+					Legal HR services: Employment law compliance, contract drafting, workplace dispute
+					resolution, HR policy development, and expert guidance for labor matters
 				</p>
 				<div class="flex justify-center items-center">
 					<a
@@ -158,8 +158,8 @@
 					Contract Consultation
 				</h3>
 				<p class="font-montserrat font-normal text-black text-sm text-center mb-4">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequatur quia
-					aspernatur eaque optio officiis.
+					Expert legal guidance for contracts: Drafting, review, and negotiation. Protect your
+					interests with our comprehensive contract consultation services
 				</p>
 				<div class="flex justify-center items-center">
 					<a

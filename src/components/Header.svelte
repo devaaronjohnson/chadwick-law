@@ -76,7 +76,7 @@
 										<a
 											on:click={() => (showMenu = false)}
 											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
-											href="/family"
+											href="/divorce"
 										>
 											Divorce
 										</a>
