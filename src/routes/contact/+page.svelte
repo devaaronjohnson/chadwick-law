@@ -1,15 +1,18 @@
 <script>
 	import { clickOutside } from '$lib/clickOutside';
 
+	// Props
+	export let form;
+
 	// Booleans
 	let showServiceList = false;
 
 	// Variables
-	let fullName,
-		phone,
-		email,
-		message,
-		service = '';
+	let name = '';
+	let email = '';
+	let phone = '';
+	let service = '';
+	let message = '';
 
 	let services = [
 		'Estate Planning',
@@ -20,15 +23,26 @@
 		'Contract Consultaion'
 	];
 
-	let fullNameClicked,
-		phoneClicked,
-		emailClicked,
-		serviceClicked = '';
+	let nameClicked = false;
+	let phoneClicked = false;
+	let emailClicked = false;
+	let serviceClicked = false;
 
 	// Functions
-	async function submitForm() {
-		console.log('Submit Form');
+	function validateEmail(email) {
+		var emailRegEx =
+			/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		return emailRegEx.test(String(email).toLowerCase());
 	}
+	function validatePhone(phone) {
+		let regex = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+		return regex.test(phone);
+	}
+
+	$: isValidEmail = validateEmail(email);
+	$: isValidPhone = validatePhone(phone);
+	$: isValidName = name.length > 0;
+	$: isValidService = service !== '';
 </script>
 
 <section class="relative bg-brandDarkBlue pt-0 lg:pt-36 pb-0 lg:pb-24">
@@ -38,60 +52,78 @@
 			<h1 class="relative font-oregon font-medium text-white text-6xl leading-none mb-2">
 				Have specific question or need assistance with something...
 			</h1>
-			<!-- <p class="font-montserrat font-normal text-white text-xl mb-5">
-				Legal services do not need to be complicated or expensive. Let me help walk you through your
-				legal needs in a timely manner at a reasonable fee.
-			</p> -->
-			<!-- <div class="flex justify-start lg:justify-start items-center">
-				<a
-					href="."
-					class="btn_hero border border-brandOrange bg-brandOrange text-white hover:bg-brandOrange hover:text-white"
-					>Get Started</a
-				>
-			</div> -->
 		</div>
-		<!-- <div class="w-full lg:flex-1 pl-0 lg:pl-28">
-			<div class="translate-y-20"><Form {services} /></div>
-		</div> -->
 	</div>
 </section>
 
 <section class="pt-12 lg:pt-20 pb-12 lg:pb-24">
 	<div class="w-full max-w-screen-lg mx-auto">
-		<p class="font-montserrat font-light text-xl mb-6">Please fill out the form below and I will be in touch within 24 hours.</p>
-		<form on:submit|preventDefault={submitForm} class="relative">
+		<p class="font-montserrat font-light text-xl mb-6">
+			Please fill out the form below and I will be in touch within 24 hours.
+		</p>
+		<form method="POST" action="/contact" class="relative">
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
 				<div class="w-full mb-3 relative">
 					<label for="name"> Name </label>
 					<input
 						id="name"
-						class="border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full focus:outline-none"
+						class="border rounded p-3 font-montserrat font-light text-base w-full focus:outline-none {nameClicked && !isValidName ? 'border-red-500' : 'border-gray-300'}"
 						placeholder="Name (required)"
-						bind:value={fullName}
-						on:focus={() => (fullNameClicked = true)}
+						bind:value={name}
+						on:blur={() => (nameClicked = true)}
+						name="name"
 					/>
+					{#if nameClicked && !isValidName}
+						<div class="mt-1">
+							<p class="font-montserrat font-bold text-red-500 opacity-75 text-sm">
+								Please enter a valid phone number.
+							</p>
+						</div>
+					{/if}
 				</div>
 				<div class="w-full mb-3 relative">
 					<label for="phone"> Phone </label>
 					<input
 						id="phone"
-						class="border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full focus:outline-none"
+						class="border rounded p-3 font-montserrat font-light text-base w-full focus:outline-none {phoneClicked &&
+						!isValidPhone
+							? 'border-red-500'
+							: 'border-gray-300'}"
 						placeholder="Phone (required)"
 						bind:value={phone}
-						on:focus={() => (phoneClicked = true)}
+						on:blur={() => (phoneClicked = true)}
+						name="phone"
 					/>
+					{#if phoneClicked && !isValidPhone}
+						<div class="mt-1">
+							<p class="font-montserrat font-bold text-red-500 opacity-75 text-sm">
+								Please enter a valid phone number.
+							</p>
+						</div>
+					{/if}
 				</div>
 			</div>
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
 				<div class="w-full mb-3 relative">
-					<label for="Email"> Phone </label>
+					<label for="Email"> Email </label>
 					<input
 						id="email"
-						class="border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full focus:outline-none"
+						class="border rounded p-3 font-montserrat font-light text-base w-full focus:outline-none {emailClicked &&
+						!isValidEmail
+							? 'border-red-500'
+							: 'border-gray-300'}"
 						placeholder="Email (required)"
 						bind:value={email}
-						on:focus={() => (emailClicked = true)}
+						on:blur={() => (emailClicked = true)}
+						name="email"
 					/>
+					{#if emailClicked && !isValidEmail}
+						<div class="mt-1">
+							<p class="font-montserrat font-bold text-red-500 opacity-75 text-sm">
+								Please enter a valid email.
+							</p>
+						</div>
+					{/if}
 				</div>
 				<div
 					use:clickOutside
@@ -99,17 +131,30 @@
 					class="w-full mb-3 relative"
 				>
 					<i class="fa-solid fa-caret-down absolute right-3 top-9 text-gray-400 z-10 text-2xl" />
-					<label for="relative service"> Service </label>
+					<label for="relative service"> Practice Area </label>
 					<input
 						id="service"
-						class="relative border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full focus:outline-none"
+						name="service"
+						class="relative border rounded p-3 font-montserrat font-light text-base w-full focus:outline-none {serviceClicked &&
+						!isValidService
+							? 'border-red-500'
+							: 'border-gray-300'}"
 						placeholder="Select a service"
 						bind:value={service}
-						on:focus={() => {
+						on:blur={() => {
 							serviceClicked = true;
+						}}
+						on:focus={() => {
 							showServiceList = true;
 						}}
 					/>
+					{#if serviceClicked && !isValidService}
+						<div class="mt-1">
+							<p class="font-montserrat font-bold text-red-500 opacity-75 text-sm">
+								Please select a practice area.
+							</p>
+						</div>
+					{/if}
 					{#if showServiceList}
 						<div class="w-full bg-white rounded p-5 absolute top-16 left-0 shadow-2xl z-10">
 							<ul>
@@ -133,6 +178,7 @@
 			<div class="w-full mb-3 relative">
 				<label for="message"> Message </label>
 				<textarea
+					name="message"
 					rows="4"
 					id="message"
 					class="border border-gray-300 rounded p-3 font-montserrat font-light text-base w-full focus:outline-none"
@@ -144,7 +190,11 @@
 				<button
 					class="inline-block font-montserrat font-normal uppercase text-white text-sm rounded-full px-8 py-3 border border-brandOrange bg-brandOrange"
 				>
-					Submit
+					{#if form?.success}
+						Form Submitted
+					{:else}
+						Submit
+					{/if}
 				</button>
 			</div>
 		</form>
