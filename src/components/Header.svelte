@@ -94,7 +94,7 @@
 										<a
 											on:click={() => (showMenu = false)}
 											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
-											href="/human-resources-and-labor"
+											href="/human-resources-and-labor-issues"
 										>
 											Human Resources & Labor Issues
 										</a>
@@ -103,7 +103,7 @@
 										<a
 											on:click={() => (showMenu = false)}
 											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
-											href="/contract-consultation"
+											href="/contact-consultation"
 										>
 											Contract Consultation
 										</a>
@@ -135,6 +135,47 @@
 		</div>
 	</div>
 </nav>
+
+{#if showMobileNav}
+	<div class="fixed top-0 bottom-0 left-0 w-full flex justify-center items-center">
+		<ul>
+			<li class="text-center font-montserrat font-light text-xl leading-loose">
+				<a href="/" class="text-white">Home</a>
+			</li>
+			<li class="text-center font-montserrat font-light text-xl leading-loose">
+				<a href="/about" class="text-white">About</a>
+			</li>
+			<li class="text-center font-montserrat font-light text-xl leading-loose">
+				<a href="/contact" class="text-white">Contact</a>
+			</li>
+			<li class="text-center font-montserrat font-light text-xl leading-loose">
+				<a href="/contact" class="text-white">Services</a>
+				<ul>
+					<li class="text-center font-montserrat font-light text-lg leading-loose">
+						<a href="/estate-planning" class="text-white">Estate Planning</a>
+					</li>
+					<li class="text-center font-montserrat font-light text-lg leading-loose">
+						<a href="/business-services" class="text-white">Business Services</a>
+					</li>
+					<li class="text-center font-montserrat font-light text-lg leading-loose">
+						<a href="/real-estate" class="text-white">Real Estate</a>
+					</li>
+					<li class="text-center font-montserrat font-light text-lg leading-loose">
+						<a href="/divorce" class="text-white">Divorce</a>
+					</li>
+					<li class="text-center font-montserrat font-light text-lg leading-loose">
+						<a href="/human-resources-and-labor-issues" class="text-white"
+							>Human Resources and Labor Issues</a
+						>
+					</li>
+					<li class="text-center font-montserrat font-light text-lg leading-loose">
+						<a href="/contract-consultation" class="text-white">Contact Consultation</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+{/if}
 
 <style>
 	li {
