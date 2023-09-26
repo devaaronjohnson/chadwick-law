@@ -143,7 +143,7 @@
 				</p>
 				<div class="flex justify-center items-center">
 					<a
-						href="/human-resources-and-labor"
+						href="/human-resources-and-labor-issues"
 						class="btn_sm border border-brandOrange bg-transparent font-montserrat hover:border-brandOrange hover:bg-brandOrange text-brandOrange hover:text-white transition-all duration-200"
 						>Get Started</a
 					>

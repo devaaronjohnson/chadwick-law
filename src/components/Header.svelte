@@ -94,7 +94,7 @@
 										<a
 											on:click={() => (showMenu = false)}
 											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
-											href="/human-resources-and-labor"
+											href="/human-resources-and-labor-issues"
 										>
 											Human Resources & Labor Issues
 										</a>
@@ -103,7 +103,7 @@
 										<a
 											on:click={() => (showMenu = false)}
 											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
-											href="/contract-consultation"
+											href="/contact-consultation"
 										>
 											Contract Consultation
 										</a>
@@ -127,7 +127,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="block lg:hidden">
+			<div class="block lg:hidden z-20">
 				<a on:click|preventDefault={() => (showMobileNav = true)} href="." class="ml-3">
 					<i class="fa-regular fa-bars text-3xl {y < 30 ? 'text-white' : 'text-black'}" />
 				</a>
@@ -135,6 +135,72 @@
 		</div>
 	</div>
 </nav>
+
+{#if showMobileNav}
+	<div
+		in:fly={{ duration: 500, easing: quintOut, x: 750, opacity: 1 }}
+		out:fade={{ duration: 200 }}
+		class="fixed top-0 bottom-0 left-0 w-full flex justify-center items-center bg-brandDarkBlue bg-opacity-[0.99] z-[9999]"
+	>
+		<a
+			class="text-white opacity-100 hover:opacity-75 transition-all duration-200 absolute top-5 right-5"
+			href="."
+			on:click|preventDefault={() => (showMobileNav = false)}
+		>
+			<i class="fa-regular fa-xmark text-3xl" />
+		</a>
+		<ul class="relative mb-28">
+			<li class="text-center font-montserrat font-light text-2xl leading-loose">
+				<a on:click={() => (showMobileNav = false)} href="/" class="text-white">Home</a>
+			</li>
+			<li class="text-center font-montserrat font-light text-2xl leading-loose">
+				<a on:click={() => (showMobileNav = false)} href="/about" class="text-white">About</a>
+			</li>
+			<li class="text-center font-montserrat font-light text-2xl leading-loose">
+				<a on:click={() => (showMobileNav = false)} href="/contact" class="text-white">Contact</a>
+			</li>
+			<li class="text-center font-montserrat font-light text-2xl leading-loose">
+				<a on:click={() => (showMobileNav = false)} href="/" class="text-white">Services</a>
+				<ul>
+					<li class="text-center font-montserrat font-light text-lg leading-loose">
+						<a on:click={() => (showMobileNav = false)} href="/estate-planning" class="text-white"
+							>Estate Planning</a
+						>
+					</li>
+					<li class="text-center font-montserrat font-light text-lg leading-loose">
+						<a on:click={() => (showMobileNav = false)} href="/business-services" class="text-white"
+							>Business Services</a
+						>
+					</li>
+					<li class="text-center font-montserrat font-light text-lg leading-loose">
+						<a on:click={() => (showMobileNav = false)} href="/real-estate" class="text-white"
+							>Real Estate</a
+						>
+					</li>
+					<li class="text-center font-montserrat font-light text-lg leading-loose">
+						<a on:click={() => (showMobileNav = false)} href="/divorce" class="text-white"
+							>Divorce</a
+						>
+					</li>
+					<li class="text-center font-montserrat font-light text-lg leading-loose">
+						<a
+							on:click={() => (showMobileNav = false)}
+							href="/human-resources-and-labor-issues"
+							class="text-white">Human Resources and Labor Issues</a
+						>
+					</li>
+					<li class="text-center font-montserrat font-light text-lg leading-loose">
+						<a
+							on:click={() => (showMobileNav = false)}
+							href="/contract-consultation"
+							class="text-white">Contact Consultation</a
+						>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+{/if}
 
 <style>
 	li {
