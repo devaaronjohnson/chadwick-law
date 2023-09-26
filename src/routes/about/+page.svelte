@@ -8,7 +8,7 @@
 	<title>{pageTitle}</title>
 </svelte:head>
 
-<section class="relative bg-brandDarkBlue pt-0 lg:pt-44 pb-0 lg:pb-24">
+<section class="relative bg-brandDarkBlue pt-32 lg:pt-44 pb-0 lg:pb-24">
 	<img src="/ccl_name.svg" alt="" class="bg_name" />
 	<div class="container_xl container_padding flex flex-col lg:flex-row items-center">
 		<div class="w-full lg:w-1/2">
