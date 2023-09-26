@@ -95,7 +95,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="flex justify-start lg:justify-start items-center mt-10">
+		<div class="flex justify-start lg:justify-start items-center mt-10 container_padding">
 			<a
 				on:click|preventDefault={() =>
 					animateScroll.scrollTo({ element: '#form', duration: 1000, offset: -50 })}
