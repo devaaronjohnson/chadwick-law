@@ -1,6 +1,6 @@
 <script>
 	import { Form } from '$components';
-	import {animateScroll} from 'svelte-scrollto-element'
+	import { animateScroll } from 'svelte-scrollto-element';
 
 	// Booleans
 	let showDetails = false;
@@ -157,7 +157,7 @@
 				<!-- {/if} -->
 			</div>
 		</div>
-		<div class="flex justify-start lg:justify-start items-center mt-10">
+		<div class="flex justify-start lg:justify-start items-center mt-10 container_padding">
 			<a
 				on:click|preventDefault={() =>
 					animateScroll.scrollTo({ element: '#form', duration: 1000, offset: -50 })}
