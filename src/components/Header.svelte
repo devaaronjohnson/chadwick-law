@@ -94,7 +94,7 @@
 										<a
 											on:click={() => (showMenu = false)}
 											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
-											href="/about"
+											href="/human-resources-and-labor"
 										>
 											Human Resources & Labor Issues
 										</a>
@@ -103,7 +103,7 @@
 										<a
 											on:click={() => (showMenu = false)}
 											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
-											href="/about"
+											href="/contract-consultation"
 										>
 											Contract Consultation
 										</a>
@@ -119,7 +119,7 @@
 					<li class="text-base ml-10">
 						<a href="/contact" class={y < 30 ? 'text-white' : 'text-black'}> Contact </a>
 					</li>
-					<li class="ml-10 text-base text-white">
+					<li class="ml-10 text-base {y < 30 ? 'text-white' : 'text-black'}">
 						<a href="tel:6154172129">
 							<i class="fa-light fa-phone-rotary mr-1" />
 							615-417-2129

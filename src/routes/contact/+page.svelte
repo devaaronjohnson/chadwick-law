@@ -45,7 +45,7 @@
 	$: isValidService = service !== '';
 </script>
 
-<section class="relative bg-brandDarkBlue pt-0 lg:pt-36 pb-0 lg:pb-24">
+<section class="relative bg-brandDarkBlue pt-0 lg:pt-36 pb-0 lg:pb-16">
 	<img src="/ccl_name.svg" alt="" class="bg_name" />
 	<div class="relative container_xl container_padding flex flex-col lg:flex-row items-center">
 		<div class="relative w-full lg:w-2/3">
@@ -67,7 +67,10 @@
 					<label for="name"> Name </label>
 					<input
 						id="name"
-						class="border rounded p-3 font-montserrat font-light text-base w-full focus:outline-none {nameClicked && !isValidName ? 'border-red-500' : 'border-gray-300'}"
+						class="border rounded p-3 font-montserrat font-light text-base w-full focus:outline-none {nameClicked &&
+						!isValidName
+							? 'border-red-500'
+							: 'border-gray-300'}"
 						placeholder="Name (required)"
 						bind:value={name}
 						on:blur={() => (nameClicked = true)}

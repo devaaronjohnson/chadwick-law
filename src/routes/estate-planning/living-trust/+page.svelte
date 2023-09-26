@@ -1,11 +1,12 @@
 <script>
 	import { Form } from '$components';
+	import {animateScroll} from 'svelte-scrollto-element'
 
 	// Booleans
 	let showDetails = false;
 
 	// Variables
-	let services = ['Living Trust'];
+	let services = ['Living Trust', 'Last Will', 'Living Will', 'Power of Attorney'];
 	let defaultService = 'Living Trust';
 
 	// Meta
@@ -65,7 +66,7 @@
 				>
 			</div> -->
 		</div>
-		<div class="relative w-full lg:flex-1 pl-0 lg:pl-28">
+		<div id="form" class="relative w-full lg:flex-1 pl-0 lg:pl-28">
 			<div class="translate-y-20"><Form {defaultService} {services} /></div>
 		</div>
 	</div>
@@ -155,6 +156,15 @@
 				</p>
 				<!-- {/if} -->
 			</div>
+		</div>
+		<div class="flex justify-start lg:justify-start items-center mt-10">
+			<a
+				on:click|preventDefault={() =>
+					animateScroll.scrollTo({ element: '#form', duration: 1000, offset: -50 })}
+				href="."
+				class="btn_hero border border-brandOrange bg-transparent text-brandOrange hover:bg-brandOrange hover:text-white transition-all duration-200"
+				>Start my Living Trust</a
+			>
 		</div>
 	</div>
 </section>

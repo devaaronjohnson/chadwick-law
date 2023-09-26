@@ -6,7 +6,8 @@
 	let showDetails = false;
 
 	// Variables
-	let services = ['Corporation'];
+	let defaultService = 'Corporation'
+	let services = ['Corporation', 'LLC', 'DBA', 'Partnership'];
 
 	// Meta
 	let pageTitle = '';
@@ -116,7 +117,7 @@
 				on:click|preventDefault={() =>
 					animateScroll.scrollTo({ element: '#form', duration: 1000, offset: -50 })}
 				href="."
-				class="btn_hero border border-brandOrange bg-brandOrange text-white hover:bg-brandOrange hover:text-white"
+				class="btn_hero border border-brandOrange bg-transparent text-brandOrange hover:bg-brandOrange hover:text-white transition-all duration-200"
 				>Start my Corporation</a
 			>
 		</div>
