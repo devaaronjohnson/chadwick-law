@@ -48,7 +48,10 @@
 				>
 			</div> -->
 			<p class="font-montserrat font-normal text-xl text-white">
-				Fill out the form to get started!
+				Fill out the form or call me at <a
+					class="underline underline-offset-4"
+					href="tel:6154172129">615-417-2129</a
+				> to get started.
 			</p>
 		</div>
 		<div id="form" class="relative w-full lg:flex-1 pl-0 lg:pl-28">
@@ -61,7 +64,7 @@
 	<div class="container_xl container_padding">
 		<div class="grid grid-cols-1 gap-8 mb-10 lg:mb-16">
 			<div>
-				<h2 class="font-oregon font-medium text-5xl text-black mb-4">
+				<h2 class="font-oregon font-medium text-4xl text-black mb-4">
 					Human Resources and Labor issues that I can assist you with include:
 				</h2>
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-2 w-3/4">

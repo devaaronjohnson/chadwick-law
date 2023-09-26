@@ -2,7 +2,9 @@
 	import { Form } from '$components';
 	import { animateScroll } from 'svelte-scrollto-element';
 
-	let services = ['DBA'];
+	// Variables
+	let defaultService = 'DBA';
+	let services = ['DBA', 'LLC', 'Corporation', 'Partnership'];
 
 	// Booleans
 	let showDetails = false;
@@ -43,7 +45,7 @@
 			</p>
 		</div>
 		<div id="form" class="relative w-full lg:flex-1 pl-0 lg:pl-28">
-			<div class="translate-y-20"><Form {services} /></div>
+			<div class="translate-y-20"><Form {defaultService} {services} /></div>
 		</div>
 	</div>
 </section>
@@ -69,7 +71,7 @@
 				</p>
 			</div>
 		</div> -->
-		<h2 class="font-oregon font-medium text-5xl text-black mb-5">Why a DBA is important</h2>
+		<h2 class="font-oregon font-medium text-4xl text-black mb-8">Why a DBA is important?</h2>
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-20">
 			<div>
 				<h2 class="font-oregon font-medium text-4xl text-black">Legally required</h2>
@@ -92,6 +94,15 @@
 					segments or different geographical areas.
 				</p>
 			</div>
+		</div>
+		<div class="flex justify-start lg:justify-start items-center mt-10">
+			<a
+				on:click|preventDefault={() =>
+					animateScroll.scrollTo({ element: '#form', duration: 1000, offset: -50 })}
+				href="."
+				class="btn_hero border border-brandOrange bg-transparent text-brandOrange hover:bg-brandOrange hover:text-white transition-all duration-200"
+				>Start my DBA</a
+			>
 		</div>
 	</div>
 </section>

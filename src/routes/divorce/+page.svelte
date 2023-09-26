@@ -212,13 +212,13 @@
 			</div> -->
 		</div>
 
-		<div class="flex justify-start lg:justify-center items-center mt-10">
+		<div class="flex justify-start lg:justify-start items-center mt-10">
 			<a
 				on:click|preventDefault={() =>
 					animateScroll.scrollTo({ element: '#form', duration: 1000, offset: -50 })}
 				href="."
 				class="btn_hero border border-brandOrange bg-brandOrange text-white hover:bg-brandOrange hover:text-white"
-				>Get Started</a
+				>Start My Divorce</a
 			>
 		</div>
 	</div>

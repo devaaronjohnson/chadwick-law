@@ -3,7 +3,8 @@
 	import { animateScroll } from 'svelte-scrollto-element';
 
 	// Variables
-	let services = ['LLC'];
+	let defaultService = 'LLC'
+	let services = ['LLC', 'DBA', 'Coporation', 'Partnership'];
 
 	// Booleans
 	let showDetails = false;
@@ -45,7 +46,7 @@
 			</p>
 		</div>
 		<div id="form" class="relative w-full lg:flex-1 pl-0 lg:pl-28">
-			<div class="translate-y-20"><Form {services} /></div>
+			<div class="translate-y-20"><Form {defaultService} {services} /></div>
 		</div>
 	</div>
 </section>
@@ -111,7 +112,7 @@
 				on:click|preventDefault={() =>
 					animateScroll.scrollTo({ element: '#form', duration: 1000, offset: -50 })}
 				href="."
-				class="btn_hero border border-brandOrange bg-brandOrange text-white hover:bg-brandOrange hover:text-white"
+				class="btn_hero border border-brandOrange bg-transparent text-brandOrange hover:bg-brandOrange hover:text-white transition-all duration-200"
 				>Start my LLC</a
 			>
 		</div>
