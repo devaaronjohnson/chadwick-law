@@ -3,7 +3,7 @@
 	import { animateScroll } from 'svelte-scrollto-element';
 
 	// Variables
-	let services = ['DBA', 'LLC', 'Inc'];
+	let services = ['DBA', 'LLC', 'Corporation', 'Partnership'];
 
 	// Meta
 	let pageTitle = '';
@@ -92,7 +92,7 @@
 				<div class="flex justify-start items-center">
 					<a
 						href="/business-services/llc"
-						class="btn_sm border border-brandOrange bg-brandOrange text-white">Start my LLC</a
+						class="btn_sm border border-brandOrange bg-transparent text-brandOrange hover:bg-brandOrange hover:text-white transition-all duration-200">Start my LLC</a
 					>
 				</div>
 				<!-- <div class="mt-6">
@@ -142,7 +142,7 @@
 				<div class="flex justify-start items-center">
 					<a
 						href="/business-services/dba"
-						class="btn_sm border border-brandOrange bg-brandOrange text-white">Start my DBA</a
+						class="btn_sm border border-brandOrange bg-transparent text-brandOrange hover:bg-brandOrange hover:text-white transition-all duration-200">Start my DBA</a
 					>
 				</div>
 			</div>
@@ -162,7 +162,7 @@
 				<div class="flex justify-start items-center">
 					<a
 						href="/business-services/corporation"
-						class="btn_sm border border-brandOrange bg-brandOrange text-white"
+						class="btn_sm border border-brandOrange bg-transparent text-brandOrange hover:bg-brandOrange hover:text-white transition-all duration-200"
 						>Start my Corporation</a
 					>
 				</div>
@@ -183,7 +183,7 @@
 				<div class="flex justify-start items-center">
 					<a
 						href="/business-services/partnership"
-						class="btn_sm border border-brandOrange bg-brandOrange text-white"
+						class="btn_sm border border-brandOrange bg-transparent text-brandOrange hover:bg-brandOrange hover:text-white transition-all duration-200"
 						>Start my Partnership</a
 					>
 				</div>

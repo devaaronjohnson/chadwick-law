@@ -48,7 +48,10 @@
 				>
 			</div> -->
 			<p class="font-montserrat font-normal text-xl text-white">
-				Fill out the form to get started!
+				Fill out the form or call me at <a
+					class="underline underline-offset-4"
+					href="tel:6154172129">615-417-2129</a
+				> to get started.
 			</p>
 		</div>
 		<div id="form" class="relative w-full lg:flex-1 pl-0 lg:pl-28">
