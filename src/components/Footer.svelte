@@ -79,21 +79,26 @@
 				</ul>
 			</div>
 			<div class="w-full lg:w-2/5">
-				<p class="font-montserrat font-bold text-black text-base">Real Estate</p>
-				<p class="font-montserrat font-bold text-black text-base">Divorce</p>
-				<p class="font-montserrat font-bold text-black text-base">Human Resources & Labor Issues</p>
-				<p class="font-montserrat font-bold text-black text-base">Contract Consultation</p>
+				<p class="font-montserrat font-bold text-black text-xl lg:text-base">Real Estate</p>
+				<p class="font-montserrat font-bold text-black text-xl lg:text-base">Divorce</p>
+				<p class="font-montserrat font-bold text-black text-xl lg:text-base">
+					Human Resources & Labor Issues
+				</p>
+				<p class="font-montserrat font-bold text-black text-xl lg:text-base">
+					Contract Consultation
+				</p>
 			</div>
 
-			<div class="pl-10 w-full lg: w-1/4">
-				<p class="font-montserrat font-bold text-black text-base">Follow</p>
+			<div class="w-full lg:flex-1 pl-0 lg:pl-10 w-full lg: w-1/4 mt-8 lg:mt-0">
+				<p class="font-montserrat font-bold text-black text-xl lg:text-base mb-2">Follow</p>
 				<ul class="flex flex-row items-center">
 					<li>
 						<a
-							href="."
-							class="font-montserrat font-normal text-black text-sm transition-all duration-300 hover:underline"
+							target="_blank"
+							href="https://z-upload.facebook.com/ConnieChadwickLaw/"
+							class="font-montserrat font-normal text-blue-500 text-sm transition-all duration-300 hover:underline"
 						>
-							Social
+							<i class="fa-brands fa-facebook text-5xl" />
 						</a>
 					</li>
 				</ul>

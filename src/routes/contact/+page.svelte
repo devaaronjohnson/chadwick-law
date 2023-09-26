@@ -45,7 +45,7 @@
 	$: isValidService = service !== '';
 </script>
 
-<section class="relative bg-brandDarkBlue pt-0 lg:pt-36 pb-0 lg:pb-16">
+<section class="relative bg-brandDarkBlue pt-32 lg:pt-36 pb-12 lg:pb-16">
 	<img src="/ccl_name.svg" alt="" class="bg_name" />
 	<div class="relative container_xl container_padding flex flex-col lg:flex-row items-center">
 		<div class="relative w-full lg:w-2/3">
@@ -57,12 +57,12 @@
 </section>
 
 <section class="pt-12 lg:pt-20 pb-12 lg:pb-24">
-	<div class="w-full max-w-screen-lg mx-auto">
+	<div class="w-full max-w-screen-lg mx-auto container_padding">
 		<p class="font-montserrat font-light text-xl mb-6">
 			Please fill out the form below and I will be in touch within 24 hours.
 		</p>
 		<form method="POST" action="/contact" class="relative">
-			<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+			<div class="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-8">
 				<div class="w-full mb-3 relative">
 					<label for="name"> Name </label>
 					<input
@@ -106,7 +106,7 @@
 					{/if}
 				</div>
 			</div>
-			<div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+			<div class="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-8">
 				<div class="w-full mb-3 relative">
 					<label for="Email"> Email </label>
 					<input
