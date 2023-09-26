@@ -86,8 +86,8 @@
 					have to be this way. If you can come to an agreement with the other party ahead of time,
 					you can save thousands of dollars in legal fees and countless hours in mediation.
 				</h2>
-				<div class="flex flex-row items-start">
-					<div class="w-full lg:w-[350px]">
+				<div class="flex flex-col lg:flex-row items-start">
+					<div class="w-full lg:w-[350px] mb-10 lg:mb-0">
 						<div class="bg-white rounded-xl shadow-xl overflow-hidden w-full">
 							<!-- <div class="flex justify-center items-center mb-5">
 								<i class="fa-regular fa-house-heart text-5xl text-brandOrange" />
@@ -128,12 +128,14 @@
 							</div>
 						</div>
 					</div>
-					<div class="flex-1 ml-20">
+					<div class="w-full lg:flex-1 ml-0 lg:ml-20">
 						<p class="font-oregon font-normal text-4xl mb-5 border-b border-gray-200 pb-2">
 							Additional Costs:
 						</p>
-						<div class="flex flex-row items-start">
-							<div class="w-[350px] bg-white mr-8 border-r border-gray-200 pr-8">
+						<div class="flex flex-col lg:flex-row items-start">
+							<div
+								class="w-full lg:w-[350px] bg-white mr-8 border-r border-gray-200 pr-8 mb-10 lg:mb-0"
+							>
 								<!-- <i class="fa-regular fa-house-heart text-4xl mb-5" /> -->
 								<div class="flex flex-row justify-between items-center">
 									<h3 class="font-oregon font-medium text-brandOrange text-3xl text-left mb-3">
@@ -163,7 +165,7 @@
 									>
 								</div> -->
 							</div>
-							<div class="w-[350px] rounded-xl bg-white">
+							<div class="w-full lg:w-[350px] rounded-xl bg-white">
 								<!-- <i class="fa-regular fa-house-heart text-4xl mb-5" /> -->
 								<div class="flex flex-row justify-between items-center">
 									<h3 class="font-oregon font-medium text-brandOrange text-3xl text-left mb-3">

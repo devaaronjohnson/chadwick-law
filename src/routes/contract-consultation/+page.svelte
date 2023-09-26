@@ -29,7 +29,7 @@
 	<div class="relative container_xl container_padding flex flex-col lg:flex-row items-center">
 		<div class="relative w-full lg:w-1/2">
 			<h1 class="font-oregon font-medium text-white text-5xl lg:text-6xl mb-3 lg:mb-6">
-				Help with Human Resources & Labor Issues
+				Don't let contract language leave you dazed and confused
 			</h1>
 			<p class="font-montserrat font-normal text-xl text-white mb-6">
 				Our real estate products will help you manage your real estate and make plans for your
@@ -62,7 +62,7 @@
 		<div class="grid grid-cols-1 gap-8 mb-10 lg:mb-16">
 			<div>
 				<h2 class="font-oregon font-medium text-5xl text-black mb-4">
-					Human Resources and Labor issues that I can assist you with include:
+					Contract situations that I can consult you on:
 				</h2>
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-2 w-3/4">
 					<div class="flex flex-row items-center">
@@ -125,7 +125,7 @@
 					animateScroll.scrollTo({ element: '#form', duration: 1000, offset: -50 })}
 				href="."
 				class="btn_hero border border-brandOrange bg-brandOrange text-white hover:bg-brandOrange hover:text-white"
-				>Get HR or Labor Help</a
+				>Get Contract Help</a
 			>
 		</div>
 	</div>

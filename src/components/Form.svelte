@@ -169,7 +169,7 @@
 		</div>
 		<button
 			type="submit"
-			class="w-full font-montserrat font-normal uppercase text-white text-base rounded-full px-8 py-3 border border-brandOrange bg-brandOrange"
+			class="w-full font-montserrat font-normal uppercase text-white text-base rounded-full px-8 py-3 border border-brandOrange bg-brandOrange bg-opacity-90 hover:bg-opacity-100 transition-all duration-200"
 		>
 			Submit
 		</button>

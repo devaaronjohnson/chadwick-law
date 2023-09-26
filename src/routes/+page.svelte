@@ -39,7 +39,7 @@
 			<div class="flex justify-start lg:justify-start items-center">
 				<a
 					href="."
-					class="btn_hero border border-brandOrange bg-brandOrange text-white hover:bg-brandOrange hover:text-white"
+					class="btn_hero border border-brandOrange bg-brandOrange bg-opacity-90 text-white hover:text-white hover:bg-brandOrange hover:text-white transition-all duration-200 hover:bg-opacity-100"
 					>Get Started</a
 				>
 			</div>
@@ -72,7 +72,7 @@
 				<div class="flex justify-center items-center">
 					<a
 						href="/estate-planning"
-						class="font-montserrat font-medium text-sm bg-brandOrange border-brandOrange border rounded-full text-white px-6 py-2"
+						class="btn_sm border border-brandOrange bg-transparent font-montserrat hover:border-brandOrange hover:bg-brandOrange text-brandOrange hover:text-white transition-all duration-200"
 						>Get Started</a
 					>
 				</div>
@@ -91,7 +91,7 @@
 				<div class="flex justify-center items-center">
 					<a
 						href="/business-services"
-						class="font-montserrat font-medium text-sm bg-brandOrange border-brandOrange border rounded-full text-white px-6 py-2"
+						class="btn_sm border border-brandOrange bg-transparent font-montserrat hover:border-brandOrange hover:bg-brandOrange text-brandOrange hover:text-white transition-all duration-200"
 						>Get Started</a
 					>
 				</div>
@@ -108,7 +108,7 @@
 				<div class="flex justify-center items-center">
 					<a
 						href="/divorce"
-						class="font-montserrat font-medium text-sm border bg-brandOrange border-brandOrange rounded-full text-white px-6 py-2"
+						class="btn_sm border border-brandOrange bg-transparent font-montserrat hover:border-brandOrange hover:bg-brandOrange text-brandOrange hover:text-white transition-all duration-200"
 						>Get Started</a
 					>
 				</div>
@@ -125,7 +125,7 @@
 				<div class="flex justify-center items-center">
 					<a
 						href="/real-estate"
-						class="font-montserrat font-medium text-sm border bg-brandOrange border-brandOrange rounded-full text-white px-6 py-2"
+						class="btn_sm border border-brandOrange bg-transparent font-montserrat hover:border-brandOrange hover:bg-brandOrange text-brandOrange hover:text-white transition-all duration-200"
 						>Get Started</a
 					>
 				</div>
@@ -144,7 +144,7 @@
 				<div class="flex justify-center items-center">
 					<a
 						href="/human-resources-and-labor"
-						class="font-montserrat font-medium text-sm border border-brandOrange bg-brandOrange rounded-full text-white px-6 py-2"
+						class="btn_sm border border-brandOrange bg-transparent font-montserrat hover:border-brandOrange hover:bg-brandOrange text-brandOrange hover:text-white transition-all duration-200"
 						>Get Started</a
 					>
 				</div>
@@ -164,7 +164,7 @@
 				<div class="flex justify-center items-center">
 					<a
 						href="/contract-consultation"
-						class="font-montserrat font-medium text-sm border bg-brandOrange border-brandOrange rounded-full text-white px-6 py-2"
+						class="btn_sm border border-brandOrange bg-transparent font-montserrat hover:border-brandOrange hover:bg-brandOrange text-brandOrange hover:text-white transition-all duration-200"
 						>Get Started</a
 					>
 				</div>

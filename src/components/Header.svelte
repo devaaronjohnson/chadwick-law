@@ -94,7 +94,7 @@
 										<a
 											on:click={() => (showMenu = false)}
 											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
-											href="/about"
+											href="/human-resources-and-labor"
 										>
 											Human Resources & Labor Issues
 										</a>
@@ -103,7 +103,7 @@
 										<a
 											on:click={() => (showMenu = false)}
 											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
-											href="/about"
+											href="/contract-consultation"
 										>
 											Contract Consultation
 										</a>
