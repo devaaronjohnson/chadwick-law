@@ -55,7 +55,7 @@
 		<h2
 			class="font-oregon font-medium text-black text-3xl lg:text-5xl mb-8 lg:mb-12 text-center lg:text-left"
 		>
-			What I Can Help You With?
+			What I Can Help You With
 		</h2>
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
 			<div class="bg-white p-12 rounded-xl shadow-xl">
