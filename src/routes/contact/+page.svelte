@@ -46,7 +46,7 @@
 </script>
 
 <section class="relative bg-brandDarkBlue pt-32 lg:pt-36 pb-12 lg:pb-16">
-	<img src="/ccl_name.svg" alt="" class="bg_name" />
+	<img src="/ccl_name.png" alt="" class="bg_name" />
 	<div class="relative container_xl container_padding flex flex-col lg:flex-row items-center">
 		<div class="relative w-full lg:w-2/3">
 			<h1 class="relative font-oregon font-medium text-white text-6xl leading-none mb-2">
