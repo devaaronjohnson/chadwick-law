@@ -95,13 +95,15 @@
 					<div class="flex flex-row items-center">
 						<i class="fa-solid fa-caret-right text-2xl text-brandOrange mr-2" />
 						<div>
-							<p class="font-montserrat font-light text-2xl text-black">Item five</p>
+							<p class="font-montserrat font-light text-2xl text-black">Consultation ($350/hour)</p>
 						</div>
 					</div>
 					<div class="flex flex-row items-center">
 						<i class="fa-solid fa-caret-right text-2xl text-brandOrange mr-2" />
 						<div>
-							<p class="font-montserrat font-light text-2xl text-black">Item six</p>
+							<p class="font-montserrat font-light text-2xl text-black">
+								Dispute Resolution ($300/hour)
+							</p>
 						</div>
 					</div>
 				</div>
@@ -122,7 +124,7 @@
 			</div> -->
 		</div>
 
-		<div class="flex justify-start lg:justify-start items-center mt-10 container_padding">
+		<div class="flex justify-start lg:justify-start items-center mt-10">
 			<a
 				on:click|preventDefault={() =>
 					animateScroll.scrollTo({ element: '#form', duration: 1000, offset: -50 })}

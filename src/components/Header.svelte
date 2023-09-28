@@ -51,7 +51,7 @@
 						{#if showMenu}
 							<div
 								transition:fade={{ duration: 300 }}
-								class="bg-white rounded-xl p-5 shadow-xl absolute top-10 left-0 w-[230px]"
+								class="bg-white rounded-xl p-5 shadow-xl absolute top-10 left-0 w-[300px]"
 							>
 								<ul>
 									<li class="text-sm leading-relaxed">

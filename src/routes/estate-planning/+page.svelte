@@ -60,22 +60,25 @@
 	</div>
 </section> -->
 
-<section class="bg-white pt-44 lg:pt-28 pb-12 lg:pb-28">
-	<div class="container_xl container_padding">
+<section class="relative bg-white pt-44 lg:pt-28 pb-12 lg:pb-28">
+	<div class="relative container_lg container_padding">
 		<h2
-			class="font-oregon font-medium text-black text-3xl lg:text-5xl mb-12 text-center lg:text-left"
+			id="ep_heading"
+			class="relative font-oregon font-medium text-black text-3xl lg:text-5xl mb-12 text-center lg:text-left"
 		>
 			Estate Planning Services
 		</h2>
-		<div class="grid grid-cols-1 lg:grid-cols-4 gap-5">
+		<div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
 			<div id="services" class="shadow-xl p-8 rounded-xl bg-white">
 				<!-- <i class="fa-regular fa-house-heart text-4xl mb-5" /> -->
-				<h3 class="font-oregon font-medium text-black text-3xl text-left mb-3">Last will</h3>
+				<h3 class="font-oregon font-medium text-black text-3xl text-left mb-3">
+					Last Will & Testament
+				</h3>
 
 				<p class="font-montserrat font-normal text-black text-sm text-left mb-3">
 					Decide what happens to your property and who raises your children.
 				</p>
-				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$89</p>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$349</p>
 
 				<!-- <p class="font-montserrat font-bold text-black text-lg mb-4 text-left">From $89</p> -->
 
@@ -95,7 +98,7 @@
 					Make your health care wishes known now in case you're unable to communicate them later.
 				</p>
 
-				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$89</p>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$99</p>
 
 				<!-- <p class="font-montserrat font-bold text-black text-lg mb-4 text-left">From $89</p> -->
 
@@ -116,7 +119,7 @@
 				<p class="font-montserrat font-normal text-black text-sm text-left mb-3">
 					Appoint someone to make health care decisions for you in case you're incapacitated.
 				</p>
-				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$89</p>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$99</p>
 				<!-- <p class="font-montserrat font-bold text-black text-lg mb-4 text-left">From $89</p> -->
 
 				<div class="flex justify-start items-center">
@@ -136,7 +139,7 @@
 					Preserve your assets for your loved ones, and help avoid any additional delays and
 					expenses with the court later by taking control now.
 				</p>
-				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$89</p>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$499</p>
 				<!-- <p class="font-montserrat font-bold text-black text-lg mb-4 text-left">From $89</p> -->
 
 				<div class="flex justify-start items-center">
@@ -152,6 +155,15 @@
 </section>
 
 <style>
+	#ep_heading:after {
+		@apply bg-brandOrange;
+		position: absolute;
+		bottom: -10px;
+		left: 0;
+		height: 3px;
+		width: 75px;
+		content: '';
+	}
 	.bg_name {
 		position: absolute;
 		right: 0px;
