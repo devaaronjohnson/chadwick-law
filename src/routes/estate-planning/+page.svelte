@@ -43,7 +43,7 @@
 				>
 			</div>
 		</div>
-		<div class="relative w-full lg:flex-1 pl-0 lg:pl-28">
+		<div class="relative w-full lg:flex-1 pl-0 lg:pl-28 z-10">
 			<div class="translate-y-20"><Form {defaultService} {services} /></div>
 		</div>
 	</div>
@@ -93,7 +93,7 @@
 
 			<div class="shadow-xl p-8 rounded-xl bg-white">
 				<!-- <i class="fa-regular fa-house-heart text-4xl mb-5" /> -->
-				<h3 class="font-oregon font-medium text-black text-3xl text-left mb-3">Living will</h3>
+				<h3 class="font-oregon font-medium text-black text-3xl text-left mb-3">Living Will</h3>
 				<p class="font-montserrat font-normal text-black text-sm text-left mb-3">
 					Make your health care wishes known now in case you're unable to communicate them later.
 				</p>
@@ -114,7 +114,7 @@
 			<div class="shadow-xl p-8 rounded-xl bg-white">
 				<!-- <i class="fa-regular fa-house-heart text-4xl mb-5" /> -->
 				<h3 class="font-oregon font-medium text-black text-3xl text-left mb-2">
-					Power of attorney
+					Power of Attorney
 				</h3>
 				<p class="font-montserrat font-normal text-black text-sm text-left mb-3">
 					Appoint someone to make health care decisions for you in case you're incapacitated.
@@ -133,7 +133,7 @@
 
 			<div class="shadow-xl p-8 rounded-xl bg-white">
 				<!-- <i class="fa-regular fa-house-heart text-4xl mb-5" /> -->
-				<h3 class="font-oregon font-medium text-black text-3xl text-left mb-3">Living trust</h3>
+				<h3 class="font-oregon font-medium text-black text-3xl text-left mb-3">Living Trusts</h3>
 
 				<p class="font-montserrat font-normal text-black text-sm text-left mb-3">
 					Preserve your assets for your loved ones, and help avoid any additional delays and
@@ -155,7 +155,7 @@
 </section>
 
 <style>
-	#ep_heading:after {
+	/* #ep_heading:after {
 		@apply bg-brandOrange;
 		position: absolute;
 		bottom: -10px;
@@ -163,7 +163,7 @@
 		height: 3px;
 		width: 75px;
 		content: '';
-	}
+	} */
 	.bg_name {
 		position: absolute;
 		right: 0px;
