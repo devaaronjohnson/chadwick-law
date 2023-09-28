@@ -26,10 +26,10 @@
 </svelte:head>
 
 <section class="relative bg-brandDarkBlue pt-32 lg:pt-16 pb-0">
-	<img src="/ccl_name.svg" alt="" class="bg_name" />
+	<img src="/ccl_name.png" alt="" class="bg_name" />
 	<div class="relative container_xl container_padding flex flex-col lg:flex-row items-center">
 		<div class="w-full lg:w-1/2">
-			<h1 class="font-oregon font-medium text-white text-6xl leading-none mb-2">
+			<h1 class="font-oregon font-medium text-white text-6xl leading-none mb-2 leading-[1.1]">
 				Legal expertise without the headaches.
 			</h1>
 			<p class="font-montserrat font-normal text-white text-xl mb-5">
