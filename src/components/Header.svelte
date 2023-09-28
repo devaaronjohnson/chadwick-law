@@ -103,7 +103,7 @@
 										<a
 											on:click={() => (showMenu = false)}
 											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
-											href="/contact-consultation"
+											href="/contract-consultation"
 										>
 											Contract Consultation
 										</a>
