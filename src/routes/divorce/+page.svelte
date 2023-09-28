@@ -226,8 +226,8 @@
 				on:click|preventDefault={() =>
 					animateScroll.scrollTo({ element: '#form', duration: 1000, offset: -50 })}
 				href="."
-				class="btn_hero border border-brandOrange bg-brandOrange text-white hover:bg-brandOrange hover:text-white"
-				>Start My Divorce</a
+				class="btn_hero border border-brandOrange bg-transparent text-brandOrange hover:bg-brandOrange hover:text-white transition-all duration-200"
+				>Start my Divorce</a
 			>
 		</div>
 	</div>
