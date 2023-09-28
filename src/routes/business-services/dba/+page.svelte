@@ -19,7 +19,7 @@
 </svelte:head>
 
 <section class="relative bg-brandDarkBlue pt-32 lg:pt-16 pb-0">
-	<img src="/ccl_name.svg" alt="" class="bg_name" />
+	<img src="/ccl_name.png" alt="" class="bg_name" />
 	<div class="relative container_xl container_padding flex flex-col lg:flex-row items-center">
 		<div class="relative w-full lg:w-1/2">
 			<h1 class="font-oregon font-medium text-white text-5xl lg:text-6xl mb-3 lg:mb-6">
