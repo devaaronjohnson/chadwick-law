@@ -49,8 +49,9 @@
 				Divorce is hard, it does not have to be expensive.
 			</h1>
 			<p class="font-montserrat font-normal text-xl text-white mb-6">
-				An uncontested divorce does not have to cost you a fortune. I can walk you through the
-				process efficiently and economically.
+				Contested divorces, everyone loses. Let me help you navigate an uncontested divorce. Divorce
+				should not cost your a fortune. I can guide you through the process efficiently and
+				economically.
 			</p>
 			<!-- <p class="font-montserrat font-normal text-black text-xl mb-3">
 				Legal services do not need to be complicated or expensive. Let me help walk you through your
@@ -82,7 +83,7 @@
 			<div>
 				<h2 class="font-montserrat font-light text-xl text-black mb-10 w-full lg:w-3/4">
 					The average contested divorce will cost each party $10,000. For some this is a worthy cost
-					for freedom; for others it's a financial burden that takes yearrs to overcome. It does not
+					for freedom; for others it's a financial burden that takes years to overcome. It does not
 					have to be this way. If you can come to an agreement with the other party ahead of time,
 					you can save thousands of dollars in legal fees and countless hours in mediation.
 				</h2>
@@ -179,7 +180,15 @@
 									Includes:
 								</p>
 								<ul class="list-disc pl-4">
-									<li class="font-montserrat font-light text-base text-black">Deed transfer</li>
+									<li class="font-montserrat font-light text-base text-black">
+										Real estate deed transfer
+									</li>
+									<li class="font-montserrat font-light text-base text-black">
+										Retirement account allocation orders
+									</li>
+									<li class="font-montserrat font-light text-base text-black">
+										Revised business filings to remove spouse
+									</li>
 								</ul>
 
 								<!-- <p class="font-montserrat font-bold text-black text-lg mb-4 text-left">From $89</p> -->

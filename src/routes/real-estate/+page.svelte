@@ -29,12 +29,12 @@
 	<div class="relative container_xl container_padding flex flex-col lg:flex-row items-center">
 		<div class="relative w-full lg:w-1/2">
 			<h1 class="font-oregon font-medium text-white text-5xl lg:text-6xl mb-3 lg:mb-6">
-				Protect your real estate investment.
+				Navigate your own real estate investments.
 			</h1>
 			<p class="font-montserrat font-normal text-xl text-white mb-6">
-				Our real estate products will help you manage your real estate and make plans for your
-				future with our high-quality lease agreements and fast and easy real estate deed service.
-				Protect your investment today and have peace of mind about the future.
+				Our real estate contracts will help you manage your real estate investments and make plans
+				for your future with our comprehensive purchase agreements, lease agreements, and TN
+				disclosures. Protect your investments today and have peace of mind about the future.
 			</p>
 			<!-- <p class="font-montserrat font-normal text-black text-xl mb-3">
 				Legal services do not need to be complicated or expensive. Let me help walk you through your
@@ -64,14 +64,14 @@
 	<div class="container_xl container_padding">
 		<div class="grid grid-cols-1 gap-8 mb-10 lg:mb-16">
 			<div>
-				<h2 class="font-oregon font-medium text-5xl text-black mb-4">
-					Real estate services that I can assist with:
-				</h2>
+				<h2 class="font-oregon font-medium text-5xl text-black mb-4">Real Estate Services</h2>
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-2 w-3/4">
 					<div class="flex flex-row items-center">
 						<i class="fa-solid fa-caret-right text-2xl text-brandOrange mr-2" />
 						<div>
-							<p class="font-montserrat font-light text-2xl text-black">Purchase contracts</p>
+							<p class="font-montserrat font-light text-2xl text-black">
+								Purchase Contracts/TN Disclosures
+							</p>
 						</div>
 					</div>
 					<div class="flex flex-row items-center">
@@ -101,7 +101,7 @@
 					<div class="flex flex-row items-center">
 						<i class="fa-solid fa-caret-right text-2xl text-brandOrange mr-2" />
 						<div>
-							<p class="font-montserrat font-light text-2xl text-black">Builder Forms</p>
+							<p class="font-montserrat font-light text-2xl text-black">Builder Contracts</p>
 						</div>
 					</div>
 				</div>
