@@ -32,9 +32,10 @@
 				Don't let contract language leave you dazed and confused
 			</h1>
 			<p class="font-montserrat font-normal text-xl text-white mb-6">
-				Our real estate products will help you manage your real estate and make plans for your
-				future with our high-quality lease agreements and fast and easy real estate deed service.
-				Protect your investment today and have peace of mind about the future.
+				Let's just be real, attorneys write contracts. Contracts can be overly long, extremely
+				confusing, and have serious consequences. Let me help you draft a contract to fit your needs
+				and can be easily understood. Already have a contract? I can review and explain the terms to
+				you.
 			</p>
 			<!-- <p class="font-montserrat font-normal text-black text-xl mb-3">
 				Legal services do not need to be complicated or expensive. Let me help walk you through your
@@ -64,44 +65,24 @@
 	<div class="container_xl container_padding">
 		<div class="grid grid-cols-1 gap-8 mb-10 lg:mb-16">
 			<div>
-				<h2 class="font-oregon font-medium text-4xl text-black mb-4">
-					Contract situations that I can consult you on:
-				</h2>
+				<h2 class="font-oregon font-medium text-4xl text-black mb-4">Contract Services</h2>
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-2 w-3/4">
 					<div class="flex flex-row items-center">
 						<i class="fa-solid fa-caret-right text-2xl text-brandOrange mr-2" />
 						<div>
-							<p class="font-montserrat font-light text-2xl text-black">Item one</p>
+							<p class="font-montserrat font-light text-2xl text-black">Contract Drafting</p>
 						</div>
 					</div>
 					<div class="flex flex-row items-center">
 						<i class="fa-solid fa-caret-right text-2xl text-brandOrange mr-2" />
 						<div>
-							<p class="font-montserrat font-light text-2xl text-black">Item two</p>
+							<p class="font-montserrat font-light text-2xl text-black">Contract Consultation</p>
 						</div>
 					</div>
 					<div class="flex flex-row items-center">
 						<i class="fa-solid fa-caret-right text-2xl text-brandOrange mr-2" />
 						<div>
-							<p class="font-montserrat font-light text-2xl text-black">Item three</p>
-						</div>
-					</div>
-					<div class="flex flex-row items-center">
-						<i class="fa-solid fa-caret-right text-2xl text-brandOrange mr-2" />
-						<div>
-							<p class="font-montserrat font-light text-2xl text-black">Item four</p>
-						</div>
-					</div>
-					<div class="flex flex-row items-center">
-						<i class="fa-solid fa-caret-right text-2xl text-brandOrange mr-2" />
-						<div>
-							<p class="font-montserrat font-light text-2xl text-black">Item five</p>
-						</div>
-					</div>
-					<div class="flex flex-row items-center">
-						<i class="fa-solid fa-caret-right text-2xl text-brandOrange mr-2" />
-						<div>
-							<p class="font-montserrat font-light text-2xl text-black">Item six</p>
+							<p class="font-montserrat font-light text-2xl text-black">Contract Negotiations</p>
 						</div>
 					</div>
 				</div>

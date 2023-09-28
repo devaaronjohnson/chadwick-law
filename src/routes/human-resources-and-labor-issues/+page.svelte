@@ -65,31 +65,31 @@
 		<div class="grid grid-cols-1 gap-8 mb-10 lg:mb-16">
 			<div>
 				<h2 class="font-oregon font-medium text-4xl text-black mb-4">
-					Human Resources and Labor issues that I can assist you with include:
+					Human Resources and Labor Issues
 				</h2>
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-2 w-3/4">
 					<div class="flex flex-row items-center">
 						<i class="fa-solid fa-caret-right text-2xl text-brandOrange mr-2" />
 						<div>
-							<p class="font-montserrat font-light text-2xl text-black">Item one</p>
+							<p class="font-montserrat font-light text-2xl text-black">HR Operations Manuals</p>
 						</div>
 					</div>
 					<div class="flex flex-row items-center">
 						<i class="fa-solid fa-caret-right text-2xl text-brandOrange mr-2" />
 						<div>
-							<p class="font-montserrat font-light text-2xl text-black">Item two</p>
+							<p class="font-montserrat font-light text-2xl text-black">Employment Contracts</p>
 						</div>
 					</div>
 					<div class="flex flex-row items-center">
 						<i class="fa-solid fa-caret-right text-2xl text-brandOrange mr-2" />
 						<div>
-							<p class="font-montserrat font-light text-2xl text-black">Item three</p>
+							<p class="font-montserrat font-light text-2xl text-black">Subcontractor Agreements</p>
 						</div>
 					</div>
 					<div class="flex flex-row items-center">
 						<i class="fa-solid fa-caret-right text-2xl text-brandOrange mr-2" />
 						<div>
-							<p class="font-montserrat font-light text-2xl text-black">Item four</p>
+							<p class="font-montserrat font-light text-2xl text-black">Severance Agreements</p>
 						</div>
 					</div>
 					<div class="flex flex-row items-center">

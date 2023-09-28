@@ -69,9 +69,9 @@
 		<h2 class="font-oregon font-medium text-3xl lg:text-4xl text-black w-full lg:w-1/2">
 			Choose what is right for your business.
 		</h2>
-		<p class="font-montserrat font-normal text-black text-lg lg:text-base text-left mb-3">
+		<!-- <p class="font-montserrat font-normal text-black text-lg lg:text-base text-left mb-3">
 			Decide what happens to your property and who raises your children.
-		</p>
+		</p> -->
 		<div id="services" class="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-10">
 			<div class="shadow-xl p-8 rounded-xl bg-white">
 				<!-- <i class="fa-regular fa-house-heart text-4xl mb-5" /> -->
@@ -80,19 +80,28 @@
 					Limited Liability Company
 				</p>
 
-				<p class="font-montserrat font-normal text-black text-sm text-left mb-3">
+				<!-- <p class="font-montserrat font-normal text-black text-sm text-left mb-3">
 					Start up costs are often tax deductible
-				</p>
+				</p> -->
 				<p class="font-montserrat font-normal text-black text-base text-left mb-3">
 					Going solo or teaming up? Make sure you're not on the hook for business liabilities with
 					an LLC.
 				</p>
-				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$89</p>
+				<p>What's included:</p>
+				<ul>
+					<li>Busines formation with State of TN</li>
+					<li>IRS application for Federal ID</li>
+					<li>Open TN Department of Revenue account</li>
+					<li>Application for local business licenses</li>
+					<li>Operation Agreement</li>
+				</ul>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$999</p>
 
 				<div class="flex justify-start items-center">
 					<a
 						href="/business-services/llc"
-						class="btn_sm border border-brandOrange bg-transparent text-brandOrange hover:bg-brandOrange hover:text-white transition-all duration-200">Start my LLC</a
+						class="btn_sm border border-brandOrange bg-transparent text-brandOrange hover:bg-brandOrange hover:text-white transition-all duration-200"
+						>Start my LLC</a
 					>
 				</div>
 				<!-- <div class="mt-6">
@@ -135,14 +144,20 @@
 				<p class="font-montserrat font-medium text-black text-sm text-left">Doing Business As</p>
 
 				<p class="font-montserrat font-normal text-black text-base text-left mb-3">
-					Go by a different business name without creating a new company. Over half of our DBA
-					customers are sole proprietors.
+					Create a business identity separate from your personal identity.
 				</p>
-				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$89</p>
+				<p>What's included:</p>
+				<ul>
+					<li>Application for business licenses</li>
+					<li>Application for state sales tax account</li>
+					<li>TN Department of Revenue account (if applicable)</li>
+				</ul>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$249</p>
 				<div class="flex justify-start items-center">
 					<a
 						href="/business-services/dba"
-						class="btn_sm border border-brandOrange bg-transparent text-brandOrange hover:bg-brandOrange hover:text-white transition-all duration-200">Start my DBA</a
+						class="btn_sm border border-brandOrange bg-transparent text-brandOrange hover:bg-brandOrange hover:text-white transition-all duration-200"
+						>Start my DBA</a
 					>
 				</div>
 			</div>
@@ -152,13 +167,22 @@
 				<h3 class="font-oregon font-medium text-black text-3xl text-left">Corporation</h3>
 				<p class="font-montserrat font-medium text-black text-sm text-left">(S or C Corp)</p>
 
-				<p class="font-montserrat font-normal text-black text-sm text-left mb-3">
+				<!-- <p class="font-montserrat font-normal text-black text-sm text-left mb-3">
 					Start up costs are often tax deductible
-				</p>
+				</p> -->
 				<p class="font-montserrat font-normal text-black text-base text-left mb-3">
 					Plan to issue shares, go public, or go global? Go further as a corporation.
 				</p>
-				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$89</p>
+				<p>What's included:</p>
+				<ul>
+					<li>Busines formation with State of TN</li>
+					<li>IRS application for Federal ID</li>
+					<li>Open TN Department of Revenue account</li>
+					<li>Application for local business licenses</li>
+					<li>Operation Agreement</li>
+					<li>IRS S-Corp Election ($100 additional fee)</li>
+				</ul>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$999</p>
 				<div class="flex justify-start items-center">
 					<a
 						href="/business-services/corporation"
@@ -173,13 +197,22 @@
 				<h3 class="font-oregon font-medium text-black text-3xl text-left">Partnership</h3>
 				<p class="font-montserrat font-medium text-black text-base text-left" />
 
-				<p class="font-montserrat font-normal text-black text-sm text-left mb-3">
+				<!-- <p class="font-montserrat font-normal text-black text-sm text-left mb-3">
 					Start up costs are often tax deductible
-				</p>
+				</p> -->
 				<p class="font-montserrat font-normal text-black text-base text-left mb-3">
-					Plan to issue shares, go public, or go global? Go further as a corporation.
+					Planning a joint venture or have a short-term project with more than one person, a
+					partnership may be what you're looking for.
 				</p>
-				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$89</p>
+				<p>What's included:</p>
+				<ul>
+					<li>Business formation with State of TN</li>
+					<li>IRS application for Federal ID</li>
+					<li>Open TN Department of Revenue account</li>
+					<li>Application for local business licenses</li>
+					<li>Partnership Agreement</li>
+				</ul>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$999</p>
 				<div class="flex justify-start items-center">
 					<a
 						href="/business-services/partnership"
