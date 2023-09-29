@@ -43,14 +43,14 @@
 			</div>
 			<div>
 				<h3 class="font-oregon font-medium text-black text-3xl lg:text-5xl mb-3">About Connie</h3>
-				<p class="font-montserrat font-normal text-black text-base mb-4">
+				<p class="font-montserrat font-normal text-black text-base mb-4 text-justify">
 					Connie Chadwick presently focuses her law practice on flat fee legal services which
 					commonly include family court settlements such as divorces, child support orders, custody
 					agreements; contracts; business formation services; and estate plans. Connie earned her
 					Doctorate of Jurisprudence from The Nashville School of Law after earning her Bachelor of
 					Science in Accounting from Lipscomb University.
 				</p>
-				<p class="font-montserrat font-normal text-black text-base mb-4">
+				<p class="font-montserrat font-normal text-black text-base mb-4 text-justify">
 					Connie is a seasoned business professional who has transitioned to the legal profession
 					with an intense drive to achieve and deliver results for her clients. Connie has strong
 					management expertise and ability to oversee diverse objectives and challenging deadlines
@@ -61,7 +61,7 @@
 					demonstrates independent judgment and decision-making abilities with the highest level of
 					confidentiality and ethics.
 				</p>
-				<p class="font-montserrat font-normal text-black text-base mb-4">
+				<p class="font-montserrat font-normal text-black text-base mb-4 text-justify">
 					On a more personal note, Connie is a single parent of four children whose ages range from
 					17 years to 25 years old. Connie knows from experience how painful and traumatic divorce
 					can be to the couple and family. Connie guides her clients through the divorce process
@@ -69,7 +69,7 @@
 					advice, but real life advice that works for you. Connie is the best at combining both of
 					those attributes.
 				</p>
-				<div class="grid grid-cols-4 gap-5">
+				<div class="grid grid-cols-4 gap-5 mt-8">
 					<div>
 						<a
 							class="w-full"
@@ -425,6 +425,12 @@
 								);
 							})(window);
 						</script>
+					</div>
+					<div>
+						<img src="/super_lawyers.jpg" alt="Super Lawyers" class="w-full" />
+					</div>
+					<div>
+						<img src="/pro_bono_seal.jpg" alt="Pro Bono Aware" class="w-full" />
 					</div>
 				</div>
 				<!-- <div class="flex justify-center items-center">

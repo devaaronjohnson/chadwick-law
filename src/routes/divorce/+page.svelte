@@ -42,7 +42,7 @@
 </section> -->
 
 <section class="relative bg-brandDarkBlue pt-32 lg:pt-16 pb-0">
-	<img src="/ccl_name.png" alt="" class="bg_name" />
+	<img src="/ccl_name.svg" alt="" class="bg_name" />
 	<div class="relative container_xl container_padding flex flex-col lg:flex-row items-center">
 		<div class="relative w-full lg:w-1/2">
 			<h1 class="font-oregon font-medium text-white text-5xl lg:text-6xl mb-3 lg:mb-6">
@@ -85,7 +85,8 @@
 					The average contested divorce will cost each party $10,000. For some this is a worthy cost
 					for freedom; for others it's a financial burden that takes years to overcome. It does not
 					have to be this way. If you can come to an agreement with the other party ahead of time,
-					you can save thousands of dollars in legal fees and countless hours in mediation.
+					you can save thousands of dollars in legal fees and countless hours in mediation and
+					court.
 				</h2>
 				<div class="flex flex-col lg:flex-row items-start">
 					<div class="w-full lg:w-[350px] mb-10 lg:mb-0">
