@@ -2,6 +2,7 @@
 	import { fly, fade } from 'svelte/transition';
 	import { clickOutside } from '$lib/clickOutside';
 	import { quintOut } from 'svelte/easing';
+	import { page } from '$app/stores';
 
 	//Booleans
 	let showMenu = false;
@@ -11,6 +12,8 @@
 
 	// Variables
 	let y = 0;
+
+	$: console.log('Page: ', $page);
 </script>
 
 <svelte:window bind:scrollY={y} />
@@ -25,9 +28,11 @@
 		<div class="relative flex flex-row items-center justify-between">
 			<div class="flex-1">
 				{#if y < 30}
-					<a href="/">
-						<img src="/ccl_logo_white.png" alt="Connie Chadwick Law" class="h-12 lg:h-16" />
-					</a>
+					{#if $page.url.pathname !== '/'}
+						<a href="/">
+							<img src="/ccl_logo_white.png" alt="Connie Chadwick Law" class="h-12 lg:h-16" />
+						</a>
+					{/if}
 				{:else}
 					<a href="/">
 						<img src="/ccl_logo2.png" alt="Connie Chadwick Law" class="h-12 lg:h-16" />
@@ -106,6 +111,15 @@
 											href="/contract-consultation"
 										>
 											Contract Consultation
+										</a>
+									</li>
+									<li class="text-sm leading-relaxed">
+										<a
+											on:click={() => (showMenu = false)}
+											class="text-black hover:text-brandOrange transition-all duration-300 font-normal"
+											href="/phone-consult"
+										>
+											Phone Consult
 										</a>
 									</li>
 								</ul>

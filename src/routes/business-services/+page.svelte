@@ -91,7 +91,7 @@
 				<p class="font-montserrat font-bold text-sm">What's included:</p>
 				<ul class="list-disc pl-4 mb-5">
 					<li class="font-montserrat font-light text-sm leading-relaxed">
-						Busines formation with State of TN
+						Business formation with State of TN
 					</li>
 					<li class="font-montserrat font-light text-sm leading-relaxed">
 						IRS application for Federal ID
@@ -162,7 +162,7 @@
 				<p class="font-montserrat font-bold text-sm">What's included:</p>
 				<ul class="list-disc pl-4 mb-5">
 					<li class="font-montserrat font-light text-sm leading-relaxed">
-						Busines formation with State of TN
+						Business formation with State of TN
 					</li>
 					<li class="font-montserrat font-light text-sm leading-relaxed">
 						IRS application for Federal ID
@@ -173,7 +173,9 @@
 					<li class="font-montserrat font-light text-sm leading-relaxed">
 						Application for local business licenses
 					</li>
-					<li class="font-montserrat font-light text-sm leading-relaxed">Operation Agreement</li>
+					<li class="font-montserrat font-light text-sm leading-relaxed">
+						Operation Agreement/By-Lawså
+					</li>
 					<li class="font-montserrat font-light text-sm leading-relaxed">
 						IRS S-Corp Election ($100 additional fee)
 					</li>

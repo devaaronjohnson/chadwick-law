@@ -66,7 +66,7 @@
 		<div class="grid grid-cols-1 gap-8 mb-10 lg:mb-16">
 			<div>
 				<h2 class="font-oregon font-medium text-4xl text-black mb-4">Contract Services</h2>
-				<div class="grid grid-cols-1 lg:grid-cols-2 gap-2 w-3/4">
+				<div class="grid grid-cols-1 lg:grid-cols-3 gap-2 w-full">
 					<div class="flex flex-row items-center">
 						<i class="fa-solid fa-caret-right text-2xl text-brandOrange mr-2" />
 						<div>
@@ -108,7 +108,7 @@
 				on:click|preventDefault={() =>
 					animateScroll.scrollTo({ element: '#form', duration: 1000, offset: -50 })}
 				href="."
-				class="btn_hero border border-brandOrange bg-brandOrange text-white hover:bg-brandOrange hover:text-white"
+				class="btn_hero border border-brandOrange bg-transparent text-brandOrange hover:bg-brandOrange hover:text-white transition-all duration-200"
 				>Get Contract Help</a
 			>
 		</div>
