@@ -1,6 +1,7 @@
 <script>
 	// Components
 	import { Form } from '$components';
+	import { browser } from '$app/environment';
 
 	// import { Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
 	// // Default theme
@@ -29,6 +30,10 @@
 	<img src="/ccl_name.png" alt="" class="bg_name" />
 	<div class="relative container_xl container_padding flex flex-col lg:flex-row items-center">
 		<div class="w-full lg:w-1/2">
+			<div class="w-3/5 mb-8">
+				<img src="/ccl_logo_white.png" alt="Connie Chadwick Logo" class="w-full" />
+			</div>
+
 			<h1 class="font-oregon font-medium text-white text-6xl leading-none mb-2 leading-[1.1]">
 				Legal expertise without the headaches.
 			</h1>
@@ -85,8 +90,9 @@
 					Business Services
 				</h3>
 				<p class="font-montserrat font-normal text-black text-sm text-center mb-4">
-					Comprehensive legal solutions for businesses: contracts, compliance, litigation, and
-					strategic counsel. Protecting your interests and ensuring success
+					Legal solutions for Businesses: Formation, Operation Agreements/By-Laws, Contracts,
+					Compliance, Licensing, and Strategic Counsel. Protecting your interests and ensuring
+					success
 				</p>
 				<div class="flex justify-center items-center">
 					<a
@@ -102,8 +108,9 @@
 				</div>
 				<h3 class="font-oregon font-medium text-black text-3xl text-center mb-3">Divorce</h3>
 				<p class="font-montserrat font-normal text-black text-sm text-center mb-4">
-					Comprehensive divorce legal support: Experienced attorneys navigate complex laws, protect
-					your interests, and guide you toward a fair resolution
+					Affordable Divorce legal support: Get help navigating complex laws and protect your
+					interests during a divorce. Obtain a fair resolution for dividing your estate and your
+					family
 				</p>
 				<div class="flex justify-center items-center">
 					<a
@@ -119,8 +126,8 @@
 				</div>
 				<h3 class="font-oregon font-medium text-black text-3xl text-center mb-3">Real Estate</h3>
 				<p class="font-montserrat font-normal text-black text-sm text-center mb-4">
-					Comprehensive real estate services tailored to attorneys, simplifying transactions, title
-					research, and legal support for seamless property dealings
+					Transactional Real Estate Services: FSBO Purchase Agreements, Contracts, Deed Transfers,
+					Lease Agreements, and Legal Support for seamless property dealings
 				</p>
 				<div class="flex justify-center items-center">
 					<a
@@ -138,8 +145,8 @@
 					Human Resources & Labor Issues
 				</h3>
 				<p class="font-montserrat font-normal text-black text-sm text-center mb-4">
-					Legal HR services: Employment law compliance, contract drafting, workplace dispute
-					resolution, HR policy development, and expert guidance for labor matters
+					Legal HR services: Employment aw Compliance, Contract Drafting, Workplace Dispute
+					Resolution, HR policy development, and expert guidance for labor matters
 				</p>
 				<div class="flex justify-center items-center">
 					<a
@@ -210,14 +217,14 @@
 			</div>
 			<div>
 				<h3 class="font-oregon font-medium text-black text-3xl lg:text-5xl mb-3">About Connie</h3>
-				<p class="font-montserrat font-normal text-black text-base mb-4">
+				<p class="font-montserrat font-normal text-black text-base mb-4 text-justify">
 					Connie Chadwick presently focuses her law practice on flat fee legal services which
 					commonly include family court settlements such as divorces, child support orders, custody
 					agreements; contracts; business formation services; and estate plans. Connie earned her
 					Doctorate of Jurisprudence from The Nashville School of Law after earning her Bachelor of
 					Science in Accounting from Lipscomb University.
 				</p>
-				<p class="font-montserrat font-normal text-black text-base mb-4">
+				<p class="font-montserrat font-normal text-black text-base mb-4 text-justify">
 					Connie is a seasoned business professional who has transitioned to the legal profession
 					with an intense drive to achieve and deliver results for her clients. Connie has strong
 					management expertise and ability to oversee diverse objectives and challenging deadlines
@@ -228,7 +235,7 @@
 					demonstrates independent judgment and decision-making abilities with the highest level of
 					confidentiality and ethics.
 				</p>
-				<p class="font-montserrat font-normal text-black text-base mb-4">
+				<p class="font-montserrat font-normal text-black text-base mb-4 text-justify">
 					On a more personal note, Connie is a single parent of four children whose ages range from
 					17 years to 25 years old. Connie knows from experience how painful and traumatic divorce
 					can be to the couple and family. Connie guides her clients through the divorce process
@@ -236,7 +243,7 @@
 					advice, but real life advice that works for you. Connie is the best at combining both of
 					those attributes.
 				</p>
-				<div class="grid grid-cols-4 gap-5">
+				<div class="grid grid-cols-4 gap-5 mt-8">
 					<div>
 						<a
 							class="w-full"
@@ -593,6 +600,13 @@
 							})(window);
 						</script>
 					</div>
+					<div>
+						<img src="/super_lawyers.jpg" alt="Super Lawyers" class="w-full" />
+					</div>
+					<div>
+						<img src="/pro_bono_seal.jpg" alt="Pro Bono Aware" class="w-full" />
+					</div>
+					<!-- end super lawyers badge -->
 				</div>
 				<!-- <div class="flex justify-center items-center">
 					<a

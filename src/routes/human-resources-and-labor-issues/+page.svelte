@@ -29,12 +29,12 @@
 	<div class="relative container_xl container_padding flex flex-col lg:flex-row items-center">
 		<div class="relative w-full lg:w-1/2">
 			<h1 class="font-oregon font-medium text-white text-5xl lg:text-6xl mb-3 lg:mb-6">
-				Help with Human Resources & Labor Issues
+				Legal HR Services
 			</h1>
 			<p class="font-montserrat font-normal text-xl text-white mb-6">
-				Our real estate products will help you manage your real estate and make plans for your
-				future with our high-quality lease agreements and fast and easy real estate deed service.
-				Protect your investment today and have peace of mind about the future.
+				Set your small to mid-sized business off on the right path with our Human Resource and
+				Employment guides and contracts. Communicate clearly with your employees what the laws,
+				rights, and expectations are in the workplace.
 			</p>
 			<!-- <p class="font-montserrat font-normal text-black text-xl mb-3">
 				Legal services do not need to be complicated or expensive. Let me help walk you through your

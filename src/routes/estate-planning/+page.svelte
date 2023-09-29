@@ -76,7 +76,8 @@
 				</h3>
 
 				<p class="font-montserrat font-normal text-black text-sm text-left mb-3">
-					Decide what happens to your property and who raises your children.
+					Decide what happens to your property and who raises your children (subject to court
+					approval).
 				</p>
 				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$349</p>
 
@@ -117,7 +118,8 @@
 					Power of Attorney
 				</h3>
 				<p class="font-montserrat font-normal text-black text-sm text-left mb-3">
-					Appoint someone to make health care decisions for you in case you're incapacitated.
+					Appoint someone to make health care and/or financial decisions for you in case you're
+					incapacitated.
 				</p>
 				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$99</p>
 				<!-- <p class="font-montserrat font-bold text-black text-lg mb-4 text-left">From $89</p> -->
@@ -136,8 +138,8 @@
 				<h3 class="font-oregon font-medium text-black text-3xl text-left mb-3">Living Trusts</h3>
 
 				<p class="font-montserrat font-normal text-black text-sm text-left mb-3">
-					Preserve your assets for your loved ones, and help avoid any additional delays and
-					expenses with the court later by taking control now.
+					Preserve your assets for your loved ones, provide creditor protection, and help avoid
+					additional delays and expenses with the court later by taking control now.
 				</p>
 				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$499</p>
 				<!-- <p class="font-montserrat font-bold text-black text-lg mb-4 text-left">From $89</p> -->
