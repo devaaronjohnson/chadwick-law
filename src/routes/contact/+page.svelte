@@ -142,7 +142,7 @@
 						!isValidService
 							? 'border-red-500'
 							: 'border-gray-300'}"
-						placeholder="Select a service"
+						placeholder="Select a service (required)"
 						bind:value={service}
 						on:blur={() => {
 							serviceClicked = true;
@@ -191,7 +191,7 @@
 			</div>
 			<div>
 				<button
-					class="inline-block font-montserrat font-normal uppercase text-white text-sm rounded-full px-8 py-3 border border-brandOrange bg-brandOrange"
+					class="inline-block font-montserrat font-normal uppercase text-white text-sm rounded-full px-8 py-3 border border-brandOrange bg-brandOrange hover:border-brandDarkBlue hover:bg-brandDarkBlue hover:text-white transition-all duration-200"
 				>
 					{#if form?.success}
 						Form Submitted

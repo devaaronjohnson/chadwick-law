@@ -36,7 +36,7 @@ export const actions = {
 		const options = {
 			from: 'connie@conniechadwicklaw.com',
 			to: 'connie@conniechadwicklaw.com',
-			subject: 'New Contact Form Submission',
+			subject: 'New Phone Consult Request',
 			html: emailHtml,
 		};
 
