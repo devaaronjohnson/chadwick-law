@@ -184,6 +184,13 @@
 				<h3 id="cta_header" class="relative font-oregon font-medium text-white text-5xl">
 					Need to talk to an attorney?
 				</h3>
+				<div class="flex justify-start items-center mt-3">
+					<a
+						href="/phone-consult"
+						class="btn_sm border border-white bg-transparent text-white font-montserrat hover:border-brandDarkBlue hover:bg-brandDarkBlue hover:text-white transition-all duration-200"
+						>Contact Now</a
+					>
+				</div>
 			</div>
 			<div class="flex-1 relative w-full flex items-center justify-end">
 				<div class="flex-none flex-col flex justify-center items-center">
