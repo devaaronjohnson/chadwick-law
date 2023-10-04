@@ -2,10 +2,15 @@
 	import { goto } from '$app/navigation';
 	import { fade } from 'svelte/transition';
 	import { clickOutside } from '$lib/clickOutside';
+	import { createEventDispatcher } from 'svelte';
+
+	const dispatch = createEventDispatcher();
 
 	export let services = ['Last will', 'Living will', 'Power of attorney', 'Living trust'];
 
 	export let defaultService;
+	export let actionUrl;
+	export let form;
 
 	// Booleans
 	let showServiceList = false;
@@ -171,7 +176,11 @@
 			type="submit"
 			class="w-full font-montserrat font-normal uppercase text-white text-base rounded-full px-8 py-3 border border-brandOrange bg-brandOrange bg-opacity-90 hover:bg-opacity-100 transition-all duration-200"
 		>
-			Submit
+			{#if form?.success}
+				Form Submitted
+			{:else}
+				Submit
+			{/if}
 		</button>
 	</form>
 </div>

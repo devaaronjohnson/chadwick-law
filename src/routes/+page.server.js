@@ -35,14 +35,14 @@ export const actions = {
 
 		const options = {
 			from: 'connie@conniechadwicklaw.com',
-			to: 'connie@conniechadwicklaw.com',
+			to: 'aaronis@fastmail.com',
 			subject: 'New Contact Form Submission',
 			html: emailHtml,
 		};
 
 		transporter.sendMail(options);
 
-		throw redirect(303, '/thank-you');
+		throw redirect(303, '/');
 
 		// return { success: true };
 	},
