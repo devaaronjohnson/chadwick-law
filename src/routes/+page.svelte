@@ -8,6 +8,7 @@
 	// import '@splidejs/svelte-splide/css';
 
 	// Variables
+	let form;
 	let services = [
 		'Business Services',
 		'Contract Consultation',

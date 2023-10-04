@@ -1,4 +1,6 @@
 <script>
+	import { page } from '$app/stores';
+
 	// Components
 	import { Header, Footer } from '$components';
 
@@ -11,4 +13,6 @@
 
 <Header />
 <slot />
-<Footer />
+{#if $page.url.pathname !== '/thank-you'}
+	<Footer />
+{/if}
