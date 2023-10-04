@@ -46,20 +46,21 @@
 				<p class="font-montserrat font-normal text-black text-base mb-4 text-justify">
 					Connie Chadwick presently focuses her law practice on flat fee legal services which
 					commonly include family court settlements such as divorces, child support orders, custody
-					agreements; contracts; business formation services; and estate plans. Connie earned her
-					Doctorate of Jurisprudence from The Nashville School of Law after earning her Bachelor of
-					Science in Accounting from Lipscomb University.
+					agreements; contracts; business formation services; and estate plans. Connie is also a
+					Tennessee licensed residential general contractor with over fifteen years of experience in
+					the construction field. With both legal and construction experience, Connie is a logical
+					choice for contractor disputes. Connie earned her Doctorate of Jurisprudence from The
+					Nashville School of Law after earning her Bachelor of Science in Accounting and Finnace
+					from Lipscomb University.
 				</p>
 				<p class="font-montserrat font-normal text-black text-base mb-4 text-justify">
-					Connie is a seasoned business professional who has transitioned to the legal profession
-					with an intense drive to achieve and deliver results for her clients. Connie has strong
-					management expertise and ability to oversee diverse objectives and challenging deadlines
-					with a sense of confidence and commitment. With more than 25 years of experience in small
-					business and entrepreneurial organizations within the banking, construction and real
-					estate industries, Connie brings a diverse skill set to the table. She is extremely
-					detailed-oriented with excellent research, investigative, and communication skills. Connie
-					demonstrates independent judgment and decision-making abilities with the highest level of
-					confidentiality and ethics.
+					Connie is a seasoned business professional who transitioned to the legal profession in
+					2014 with an intense drive to achieve and deliver results for her clients. Connie has
+					strong management expertise and ability to oversee diverse objectives and challenging
+					deadlines with a sense of confidence and commitment. With more than 25 years of experience
+					in small business and entrepreneurial organizations within the banking, construction and
+					real estate industries, Connie brings a diverse skill set to the table. She is extremely
+					detailed-oriented with excellent research, investigative, and communication skills.
 				</p>
 				<p class="font-montserrat font-normal text-black text-base mb-4 text-justify">
 					On a more personal note, Connie is a single parent of four children whose ages range from
@@ -68,6 +69,16 @@
 					with empathy in tact for all those involved. A great attorney not only offers legal
 					advice, but real life advice that works for you. Connie is the best at combining both of
 					those attributes.
+				</p>
+				<p class="font-montserrat font-normal text-black text-base mb-4 text-justify">
+					Connie Chadwick is an attorney who represents transactional clients in the entire
+					Tennessee area and who represents litigation clients in Middle and West Tennessee
+					counties. Connie Chadwick is recognized by peers and was selected to Rising Stars for 2017
+					- 2023. This selection is based off of an evaluation of 12 indicators including peer
+					recognition and professional achievement in legal practice. Being selected to Rising Stars
+					is limited to a small number of attorneys in each state. As one of the few attorneys to
+					garner the distinction of Rising Stars, Connie Chadwick has earned the respect of peers as
+					one of the top-rated attorneys in the nation.
 				</p>
 				<div class="grid grid-cols-4 gap-5 mt-8">
 					<div>
