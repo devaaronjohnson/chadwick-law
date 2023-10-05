@@ -57,9 +57,9 @@
 					Connie is a seasoned business professional who transitioned to the legal profession in
 					2014 with an intense drive to achieve and deliver results for her clients. Connie has
 					strong management expertise and ability to oversee diverse objectives and challenging
-					deadlines with a sense of confidence. With more than 25 years of experience in small
-					business and entrepreneurial organizations within the banking, construction and real
-					estate industries, Connie brings a diverse skill set to the table. She is extremely
+					deadlines with a sense of confidence and commitment. With more than 25 years of experience
+					in small business and entrepreneurial organizations within the banking, construction and
+					real estate industries, Connie brings a diverse skill set to the table. She is extremely
 					detailed-oriented with excellent research, investigative, and communication skills.
 				</p>
 				<p class="font-montserrat font-normal text-black text-base mb-4 text-justify">
