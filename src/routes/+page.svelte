@@ -180,7 +180,7 @@
 		</div>
 	</div>
 	<div class="container_md container_padding mt-20">
-		<div class="relative bg-brandOrange rounded p-12 flex flex-row">
+		<div class="relative bg-brandOrange rounded p-12 flex flex-col lg:flex-row">
 			<div class="flex-1">
 				<h3 id="cta_header" class="relative font-oregon font-medium text-white text-5xl">
 					Need to talk to an attorney?
@@ -193,7 +193,7 @@
 					>
 				</div>
 			</div>
-			<div class="flex-1 relative w-full flex items-center justify-end">
+			<div class="flex-1 relative w-full flex flex-row items-center justify-end mt-8 lg:mt-0">
 				<div class="flex-none flex-col flex justify-center items-center">
 					<p
 						class="font-montserrat font-light text-white text-xl underline underline-offset-8 mb-5"
