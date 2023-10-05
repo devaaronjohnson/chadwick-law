@@ -49,7 +49,7 @@
 			<SplideSlide>
 				<div class="testimonial">
 					<p class="font-montserrat font-normal text-white text-base lg:text-lg mb-4 text-center">
-						I hired conine Chadwick to work on my civil case. Connie has a drive to perform the task
+						I hired Connie Chadwick to work on my civil case. Connie has a drive to perform the task
 						at hand. Works hard to achieve the best possible results. Communication is open, work
 						quick response. Truthful with the facts. I'm very happy with Connie Chadwick and will
 						always reference her to handle any other matters that may arise.
