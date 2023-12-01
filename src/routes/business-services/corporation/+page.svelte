@@ -10,12 +10,27 @@
 	let services = ['Corporation', 'LLC', 'DBA', 'Partnership'];
 
 	// Meta
-	let pageTitle = '';
+	let pageTitle = 'Connie Chadwick Law | Corporations';
 	let pageDescription = '';
+	let featuredImage = 'https://conniechadwicklaw.com/featured_image.png';
 </script>
 
 <svelte:head>
 	<title>{pageTitle}</title>
+	<meta name="description" content={pageDescription} />
+	<meta
+		name="robots"
+		content="index, follow max-snippet:-1 max-image-preview:large max-video-preview:-1"
+	/>
+	<!-- Social -->
+	<meta property="og:title" content={pageTitle} />
+	<meta property="og:description" content={pageDescription} />
+	<meta property="og:image" content={featuredImage} />
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={pageTitle} />
+	<meta name="twitter:description" content={pageDescription} />
+	<meta name="twitter:image" content={featuredImage} />
 </svelte:head>
 
 <section class="relative bg-brandDarkBlue pt-32 lg:pt-16 pb-0">
