@@ -195,36 +195,46 @@
 			</div>
 		</div>
 	</div>
-	<div class="container_md container_padding mt-20">
-		<div class="relative bg-brandOrange rounded p-12 flex flex-col lg:flex-row">
-			<div class="flex-1">
-				<h3 id="cta_header" class="relative font-oregon font-medium text-white text-5xl">
-					Need to talk to an attorney?
-				</h3>
-				<div class="flex justify-start items-center mt-3">
-					<a
-						href="/phone-consult"
-						class="btn_sm border border-white bg-transparent text-white font-montserrat hover:border-brandDarkBlue hover:bg-brandDarkBlue hover:text-white transition-all duration-200"
-						>Contact Now</a
-					>
-				</div>
+	<div class="container_lg mt-32 px-5 2xl:px-0">
+		<div class="flex flex-col lg:flex-row items-center">
+			<div class="w-full lg:w-2/3 mb-8 lg:mb-0">
+				<Form defaultService="" {services} />
 			</div>
-			<div class="flex-1 relative w-full flex flex-row items-center justify-end mt-8 lg:mt-0">
-				<div class="flex-none flex-col flex justify-center items-center">
-					<p
-						class="font-montserrat font-light text-white text-xl underline underline-offset-8 mb-5"
-					>
-						30 min
-					</p>
-					<p class="font-montserrat font-black text-white text-5xl">$189</p>
-				</div>
-				<div class="flex-none flex flex-col justify-center items-center ml-10">
-					<p
-						class="font-montserrat font-light text-white text-xl underline underline-offset-8 mb-5"
-					>
-						1 hr
-					</p>
-					<p class="font-montserrat font-black text-white text-5xl">$300</p>
+			<div class="w-full lg:flex-1 pl-0 lg:pl-28">
+				<div class="relative bg-brandOrange rounded p-12 flex rounded-xl flex-col">
+					<div class="flex-1">
+						<h3
+							id="cta_header"
+							class="relative font-oregon font-medium text-white text-6xl text-center"
+						>
+							Need to talk to an attorney?
+						</h3>
+					</div>
+					<div class="flex-1 relative w-full flex flex-row items-center justify-center mt-6 mb-6">
+						<div class="flex-none flex-col flex justify-center items-center">
+							<p
+								class="font-montserrat font-light text-white text-xl underline underline-offset-8 mb-5"
+							>
+								30 min
+							</p>
+							<p class="font-montserrat font-black text-white text-5xl">$189</p>
+						</div>
+						<div class="flex-none flex flex-col justify-center items-center ml-10">
+							<p
+								class="font-montserrat font-light text-white text-xl underline underline-offset-8 mb-5"
+							>
+								1 hr
+							</p>
+							<p class="font-montserrat font-black text-white text-5xl">$300</p>
+						</div>
+					</div>
+					<div class="flex justify-center items-center mt-3">
+						<a
+							href="/phone-consult"
+							class="btn_hero border border-white bg-transparent text-white font-montserrat hover:border-brandDarkBlue hover:bg-brandDarkBlue hover:text-white transition-all duration-200"
+							>Contact Now</a
+						>
+					</div>
 				</div>
 			</div>
 		</div>
