@@ -9,8 +9,8 @@
 	export let services = ['Last will', 'Living will', 'Power of attorney', 'Living trust'];
 
 	export let defaultService;
-	export let actionUrl;
-	export let form;
+	// export let actionUrl;
+	// export let form;
 
 	// Booleans
 	let showServiceList = false;
@@ -94,7 +94,7 @@
 	<p class="text-center font-montserrat font-light text-base text-black mb-5 px-0 lg:px-10">
 		Fill out the form below and I will get back to you within 24 hours.
 	</p>
-	<form method="POST" action="/contact" class="relative">
+	<form on:submit|preventDefault={submitForm} class="relative">
 		<div class="w-full mb-3 relative">
 			<label for="name"> Name </label>
 			<input
@@ -222,11 +222,7 @@
 			type="submit"
 			class="w-full font-montserrat font-normal uppercase text-white text-base rounded-full px-8 py-3 border border-brandOrange bg-brandOrange bg-opacity-90 hover:bg-opacity-100 transition-all duration-200"
 		>
-			{#if form?.success}
-				Form Submitted
-			{:else}
-				Submit
-			{/if}
+			Submit
 		</button>
 	</form>
 </div>
