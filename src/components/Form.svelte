@@ -37,6 +37,52 @@
 		return regex.test(phone);
 	}
 
+	async function submitForm() {
+		if (!isValidName || !isValidPhone || !isValidEmail || !isValidService) {
+			nameClicked = true;
+			phoneClicked = true;
+			emailClicked = true;
+			serviceClicked = true;
+			return;
+		}
+
+		const url = 'https://api.conniechadwicklaw.com/wp-json/gf/v2/forms/1/submissions';
+
+		const formData = {
+			input_1: name,
+			input_3: phone,
+			input_4: email,
+			input_5: service,
+			input_6: message
+		};
+
+		const body = JSON.stringify(formData);
+
+		const str =
+			'ck_2dda16b7fc86078588fc7881f10cff6a93f1fb66:cs_a2ab61964c148e5c8169c80a0ba5bf39fc2a7d67';
+
+		const encodedString = btoa(str);
+
+		const options = {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+				Authorization: 'Basic ' + encodedString
+			},
+			body: body
+		};
+
+		const res = await fetch(url, options);
+
+		const json = await res.json();
+
+		console.log('FORM JSON: ', json);
+
+		if (!res.ok) throw new Error('There was an issue submitting the form');
+
+		goto('/thank-you');
+	}
+
 	$: isValidEmail = validateEmail(email);
 	$: isValidPhone = validatePhone(phone);
 	$: isValidName = name.length > 0;
