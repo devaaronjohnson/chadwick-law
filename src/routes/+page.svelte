@@ -201,7 +201,7 @@
 				<Form defaultService="" {services} />
 			</div>
 			<div class="w-full lg:flex-1 pl-0 lg:pl-28">
-				<div class="relative bg-brandOrange rounded p-12 flex rounded-xl flex-col">
+				<div class="relative bg-brandOrange p-12 flex rounded-xl flex-col">
 					<div class="flex-1">
 						<h3
 							id="cta_header"
