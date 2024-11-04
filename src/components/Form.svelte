@@ -50,8 +50,8 @@
 
 		const formData = {
 			input_1: name,
-			input_3: phone,
-			input_4: email,
+			input_4: phone,
+			input_3: email,
 			input_5: service,
 			input_6: message
 		};
@@ -59,7 +59,7 @@
 		const body = JSON.stringify(formData);
 
 		const str =
-			'ck_2dda16b7fc86078588fc7881f10cff6a93f1fb66:cs_a2ab61964c148e5c8169c80a0ba5bf39fc2a7d67';
+			'ck_617318f06b786708767ccc3dca96673637e5dd78:cs_50fe7e903a376d1c33eccbd6a00ff91f24854a41';
 
 		const encodedString = btoa(str);
 
