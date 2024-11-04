@@ -59,7 +59,7 @@
 			</h1>
 			<p class="font-montserrat font-normal text-xl text-white mb-6">
 				In your absence, choose someone you trust to be present. Have questions? Schedule a call
-				with our network attorneys for advice. POA starts at $35.
+				with our network attorneys for advice. POA starts at $150.
 			</p>
 			<p class="font-montserrat font-normal text-xl text-white mb-6">
 				Fill out the form or call me at <a

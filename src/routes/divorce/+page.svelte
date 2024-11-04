@@ -120,7 +120,7 @@
 								</p>
 							</div>
 							<div class="px-10 pt-6 pb-8">
-								<p class="font-montserrat font-medium text-4xl text-center mb-4">$1,500</p>
+								<p class="font-montserrat font-medium text-4xl text-center mb-4">$2,000</p>
 								<p class="font-montserrat font-medium text-base text-center mb-1">
 									Whats included:
 								</p>
@@ -158,7 +158,9 @@
 									<h3 class="font-oregon font-medium text-brandOrange text-3xl text-left mb-3">
 										Children
 									</h3>
-									<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$500</p>
+									<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">
+										$1,000
+									</p>
 								</div>
 								<p class="font-montserrat font-medium text-black text-lg text-left mb-1">
 									Includes:
@@ -189,7 +191,7 @@
 										Property/Business
 									</h3>
 									<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">
-										$250/<span class="text-base">per</span>
+										$500/<span class="text-base">per</span>
 									</p>
 								</div>
 								<p class="font-montserrat font-medium text-black text-lg text-left mb-1">

@@ -119,7 +119,7 @@
 					</li>
 					<li class="font-montserrat font-light text-sm leading-relaxed">Operation Agreement</li>
 				</ul>
-				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$999</p>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$1,000</p>
 
 				<div class="flex justify-start items-center">
 					<a
@@ -152,7 +152,7 @@
 						TN Department of Revenue account (if applicable)
 					</li>
 				</ul>
-				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$249</p>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$250</p>
 				<div class="flex justify-start items-center">
 					<a
 						href="/business-services/dba"
@@ -195,7 +195,7 @@
 						IRS S-Corp Election ($100 additional fee)
 					</li>
 				</ul>
-				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$999</p>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$1,000</p>
 				<div class="flex justify-start items-center">
 					<a
 						href="/business-services/corporation"
@@ -234,7 +234,7 @@
 					</li>
 					<li class="font-montserrat font-light text-sm leading-relaxed">Partnership Agreement</li>
 				</ul>
-				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$999</p>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$1,000</p>
 				<div class="flex justify-start items-center">
 					<a
 						href="/business-services/partnership"

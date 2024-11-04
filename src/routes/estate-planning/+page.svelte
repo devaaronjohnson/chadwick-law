@@ -94,7 +94,7 @@
 					Decide what happens to your property and who raises your children (subject to court
 					approval).
 				</p>
-				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$349</p>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$500</p>
 
 				<!-- <p class="font-montserrat font-bold text-black text-lg mb-4 text-left">From $89</p> -->
 
@@ -114,7 +114,7 @@
 					Make your health care wishes known now in case you're unable to communicate them later.
 				</p>
 
-				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$99</p>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$100</p>
 
 				<!-- <p class="font-montserrat font-bold text-black text-lg mb-4 text-left">From $89</p> -->
 
@@ -136,7 +136,7 @@
 					Appoint someone to make health care and/or financial decisions for you in case you're
 					incapacitated.
 				</p>
-				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$99</p>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$150</p>
 				<!-- <p class="font-montserrat font-bold text-black text-lg mb-4 text-left">From $89</p> -->
 
 				<div class="flex justify-start items-center">
@@ -156,7 +156,7 @@
 					Preserve your assets for your loved ones, provide creditor protection, and help avoid
 					additional delays and expenses with the court later by taking control now.
 				</p>
-				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$499</p>
+				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$1,500</p>
 				<!-- <p class="font-montserrat font-bold text-black text-lg mb-4 text-left">From $89</p> -->
 
 				<div class="flex justify-start items-center">

@@ -61,7 +61,7 @@
 			<p class="font-montserrat font-normal text-xl text-white mb-6">
 				Keep your assets with your family and out of the courts. Create your living trust simply and
 				affordably—whether that's on your own, or with help from estate planing attorneys in our
-				network. Living trusts start at $279.
+				network. Living trusts start at $1,500.
 			</p>
 			<p class="font-montserrat font-normal text-xl text-white mb-6">
 				Fill out the form to get started or call me at <a

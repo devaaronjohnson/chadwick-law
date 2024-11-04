@@ -59,7 +59,7 @@
 			</h1>
 			<p class="font-montserrat font-normal text-xl text-white mb-6">
 				Build your last will and testament from the comfort of your home in under 15 minutes. Get
-				access to step-by-step help from experienced attorneys. Last wills start at $89.
+				access to step-by-step help from experienced attorneys. Last wills start at $500.
 			</p>
 			<p class="font-montserrat font-normal text-xl text-white mb-6">
 				Fill out the form or call me at <a

@@ -59,7 +59,7 @@
 			</h1>
 			<p class="font-montserrat font-normal text-xl text-white mb-6">
 				Take control of your health care with a living will that takes minutes to complete. Need
-				legal help? Schedule a call with our network attorneys today. Living will starts at $39.
+				legal help? Schedule a call with our network attorneys today. Living will starts at $100.
 			</p>
 			<p class="font-montserrat font-normal text-xl text-white mb-6">
 				Fill out the form or call me at <a
