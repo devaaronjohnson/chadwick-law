@@ -55,7 +55,7 @@
 						>
 						{#if showMenu}
 							<div
-								transition:fade={{ duration: 300 }}
+								transition:fade|global={{ duration: 300 }}
 								class="bg-white rounded-xl p-5 shadow-xl absolute top-10 left-0 w-[300px]"
 							>
 								<ul>
@@ -152,8 +152,8 @@
 
 {#if showMobileNav}
 	<div
-		in:fly={{ duration: 500, easing: quintOut, x: 750, opacity: 1 }}
-		out:fade={{ duration: 200 }}
+		in:fly|global={{ duration: 500, easing: quintOut, x: 750, opacity: 1 }}
+		out:fade|global={{ duration: 200 }}
 		class="fixed top-0 bottom-0 left-0 w-full flex justify-center items-center bg-brandDarkBlue bg-opacity-[0.99] z-[9999]"
 	>
 		<a
