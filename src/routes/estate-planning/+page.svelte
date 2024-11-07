@@ -106,7 +106,6 @@
 			</div>
 
 			<div class="shadow-xl p-8 rounded-xl bg-white">
-				<!-- <i class="fa-regular fa-house-heart text-4xl mb-5" /> -->
 				<h3 class="font-oregon font-medium text-black text-3xl text-left mb-3">Living Will</h3>
 				<p class="font-montserrat font-normal text-black text-sm text-left mb-3">
 					Make your health care wishes known now in case you're unable to communicate them later.
