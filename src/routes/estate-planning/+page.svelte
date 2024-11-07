@@ -96,8 +96,6 @@
 				</p>
 				<p class="font-montserrat font-medium text-black text-3xl text-left mb-4">$500</p>
 
-				<!-- <p class="font-montserrat font-bold text-black text-lg mb-4 text-left">From $89</p> -->
-
 				<div class="flex justify-start items-center">
 					<a
 						href="/estate-planning/last-will"
