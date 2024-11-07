@@ -1,4 +1,7 @@
 {
+	"engines": {
+    "node": "20.x"
+  },
 	"name": "chadwick-law",
 	"version": "0.0.1",
 	"private": true,
