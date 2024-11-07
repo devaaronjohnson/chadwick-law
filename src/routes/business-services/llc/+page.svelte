@@ -1,6 +1,6 @@
 <script>
 	import { Form } from '$components';
-	import { animateScroll } from 'svelte-scrollto-element';
+	import { animateScroll } from '$lib/animateScroll';
 
 	// Variables
 	let defaultService = 'LLC';
